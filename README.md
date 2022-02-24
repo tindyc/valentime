@@ -8,10 +8,10 @@ Add site responsive screenshot here
 
 Link to deployed site to go here
 
-![GitHub last commit](![GitHub last commit](https://img.shields.io/github/last-commit/tindyc/valentime?logoColor=red&style=plastic))
-![GitHub contributors](![GitHub contributors](https://img.shields.io/github/contributors/tindyc/valentime?logoColor=orange&style=plastic))
-![GitHub language count](![GitHub language count](https://img.shields.io/github/languages/count/tindyc/valentime?logoColor=yellow&style=plastic))
-![GitHub top language](![GitHub top language](https://img.shields.io/github/languages/top/tindyc/valentime?logoColor=green&style=plastic))
+![GitHub last commit](https://img.shields.io/github/last-commit/tindyc/valentime?logoColor=red&style=plastic)
+![GitHub contributors](https://img.shields.io/github/contributors/tindyc/valentime?logoColor=orange&style=plastic)
+![GitHub language count](https://img.shields.io/github/languages/count/tindyc/valentime?logoColor=yellow&style=plastic)
+![GitHub top language](https://img.shields.io/github/languages/top/tindyc/valentime?logoColor=green&style=plastic)
 ![W3C Validator]()
 ![GitHub forks](https://img.shields.io/github/forks/tindyc/valentime?style=social)
 
