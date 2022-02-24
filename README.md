@@ -1,39 +1,227 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# VALENTIME
 
-Welcome USER_NAME,
+Created for the Code Institute's February 2022 Hackathon, Love is in the air.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Valentime is a site ...
 
-## Gitpod Reminders
+Add site responsive screenshot here
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Link to deployed site to go here
 
-`python3 -m http.server`
+![GitHub last commit](![GitHub last commit](https://img.shields.io/github/last-commit/tindyc/valentime?logoColor=red&style=plastic))
+![GitHub contributors](![GitHub contributors](https://img.shields.io/github/contributors/tindyc/valentime?logoColor=orange&style=plastic))
+![GitHub language count](![GitHub language count](https://img.shields.io/github/languages/count/tindyc/valentime?logoColor=yellow&style=plastic))
+![GitHub top language](![GitHub top language](https://img.shields.io/github/languages/top/tindyc/valentime?logoColor=green&style=plastic))
+![W3C Validator]()
+![GitHub forks](https://img.shields.io/github/forks/tindyc/valentime?style=social)
 
-A blue button should appear to click: *Make Public*,
+## CONTENTS
 
-Another blue button should appear to click: *Open Browser*.
+* [User Experience (UX)](#User-Experience-(UX))
+  * [User Stories](#User-Stories)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* [Design](#Design)
+  * [Colour Scheme](#Colour-Scheme)
+  * [Typography](#Typography)
+  * [Imagery](#Imagery)
+  * [Wireframes](#Wireframes)
+  * [Features](#Features)
+  * [Accessibility](#Accessibility)
 
-A blue button should appear to click: *Make Public*,
+* [Technologies Used](#Technologies-Used)
+  * [Languages Used](#Languages-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
-Another blue button should appear to click: *Open Browser*.
+* [Deployment & Local Development](#Deployment-&-Local-Development)
+  * [Deployment](#Deployment)
+  * [Local Development](#Local-Development)
+    * [How to Fork](#How-to-Fork)
+    * [How to Clone](#How-to-Clone)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+* [Testing](#Testing)
+  * [W3C Validator](#W3C-Validator)
+  * [JavaScript Validator](#JavaScript-Validator)
+  * [Solved Bugs](#Solved-Bugs)
+  * [Known Bugs](#Known-Bugs)
+  * [Testing User Stories](#Testing-User-Stories)
+  * [Lighthouse](#Lighthouse)
+  * [Full Testing](#Full-Testing)
+  
+* [Credits](#Credits)
+  * [Code Used](#Code-Used)
+  * [Content](#Content)
+  * [Media](#Media)
+  * [Acknowledgments](#Acknowledgments)
 
-## Updates Since The Instructional Video
+- - -
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## User Experience (UX)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### User Stories
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### First Time Visitor Goals
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Returning Visitor Goals
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Frequent Visitor Goals
 
---------
+- - -
 
-Happy coding!
+## Design
+
+### Colour Scheme
+
+Image of colour scheme to go here
+
+### Typography
+
+Google Fonts was used to import the chosen fonts for use in the site.
+
+### Imagery
+
+### Wireframes
+
+Wireframes were created for mobile, tablet and desktop with ...
+
+Wireframes links/images to go here
+
+### Features
+
+The website is comprised of …
+
+* All Pages on the website have:
+
+* Future Implementations.
+
+### Accessibility
+
+We have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Providing information for screen readers where there are icons used and no text.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+
+- - -
+
+## Technologies Used
+
+### Languages Used
+
+HTML, CSS, Javascript
+
+### Frameworks, Libraries & Programs Used
+
+Balsamiq - Used to create wireframes.
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+?Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+?[Tiny PNG](https://tinypng.com/) To compress images.
+
+?[Birme](https://www.birme.net/) To resize images and convert to webp format.
+
+[Favicon.io](https://favicon.io/) To create favicon.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+[Shields.io](https://shields.io/) To add badges to the README
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using GitHub Pages.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [valentime](https://github.com/tindyc/valentime).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [valentime](https://github.com/tindyc/valentime).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
+
+## Testing
+
+Testing was ongoing throughout the entire build. We utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as we went along.
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS.
+
+W3C validator images or links to go here
+
+### JavaScript Validator
+
+** was used to validate the JavaScript used.
+
+### Solved Bugs
+
+### Known Bugs
+
+### Testing User Stories
+
+* First Time Visitors
+
+* Returning Visitors
+
+* Frequent Visitors
+
+### Lighthouse
+
+We used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+### Full Testing
+
+To fully test my website we performed the following testing using a number of browsers (google chrome) and devices (Macbook Pro 14 inch, iPhone 13 pro).
+
+We also went through each page using google chrome developer tools to ensure that they were responsive on all different screen sizes.
+
+- - -
+
+## Credits
+
+### Code Used
+
+### Content
+
+### Media
+
+### Acknowledgments
+
+Meet team *** :
+
+* [Ionut Zapototchi](https://github.com/lseparatio)
+* [Kelven Hughes](https://github.com/KelvenH)
+* [Kera Cudmore](https://github.com/kera-cudmore)
+* [Pratima Gurav](https://github.com/PratimaGurav)
+* [Tindy Chan](https://github.com/tindyc)
+
+We would like to thank the following:
+
+* [Naoise Gaffney](https://github.com/NaoiseGaffney), our facilitator for this hackathon.
+
+* Our families, for their endless patience while we disappear for another long weekend of hackathon coding.
