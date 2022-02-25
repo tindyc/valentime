@@ -17,6 +17,7 @@
   --accent-color: #E64B18;
   --white-color: #FFFFFF;
   --black-color: #000000;
+  --hearts-color: #ff094f;
 }
 
 /* Global styles */
@@ -132,7 +133,7 @@ footer {
 .heart:before,
 .heart:after {
 	content : "";
-	background-color : #ff094f;
+	background-color : var(--hearts-color);
 	position : absolute;
 	height : 30px;
 	width : 45px;
