@@ -26,25 +26,21 @@ body {
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    color:var(--white-color);
     /* mycolor.space used to generate gradient style */
     background-image: linear-gradient(to right bottom, var(--base-color), var(--grad1-color), var(--grad2-color), var(--grad3-color), var(--grad4-color));
+    /*-- the following settings to keep footer at bottom of page --*/
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-html, body {
-  height:100%;
-}
 
-main {
-  height:90vh;
-}
 
-/*- Header Container --*/
-.header-container {
-  padding-top:100px;
-}
 
 
 /* -----------------------Header */
+
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -68,13 +64,37 @@ main {
   color: var(--base-color);
 }
 
+/*------------ Page Layout Utilities */
+
+.header-container {
+  padding-top:100px;
+}
+
+.sub-content {
+  height: 5vh;
+}
+
+
+/*-----------------------Item Card */
+
+.card {
+  border:solid 5px var(--accent-color);
+  border-radius: 10px;
+}
+
+
+.card-body {
+  background-color: var(--grad4-color);
+}
+
 
 
 /* -----------------------Footer */
 
-body>footer {
-  position:sticky;
-  top:100vh;
+footer {
+  margin-top: auto;
+  position: sticky;
+  
 }
 
 footer {
@@ -88,4 +108,8 @@ footer {
 #footer-external-links> a {
   text-decoration: none;
   color: var(--white-color);
+}
+
+#footer-external-links> a:hover {
+  color: var(--base-color);
 }
