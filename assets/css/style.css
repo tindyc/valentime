@@ -1,11 +1,48 @@
-   @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Oswald:wght@200&display=swap');
+
+:root {
+
+  /* Typography */
+  --header-text: 'Lato', sans-serif;
+  --content-text: 'Oswald', sans-serif;
+
+  /* Colors */
+  /* Replace and add to below with actual project color theme */
+  --base-color: #FFC0CB;
+  --grad1-color: #FFABC2;
+  --grad2-color: #FE95BE;
+  --grad3-color: #FA7FBD;
+  --grad4-color: #F269BF;
+  --accent-color: #E64B18;
+  --white-color: #FFFFFF;
+  --black-color: #000000;
+}
+
+/* Global styles */
+
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: var(--content-text);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
+    /* mycolor.space used to generate gradient style */
+    background-image: linear-gradient(to right bottom, var(--base-color), var(--grad1-color), var(--grad2-color), var(--grad3-color), var(--grad4-color));
 }
+
+html, body {
+  height:100%;
+}
+
+main {
+  height:90vh;
+}
+
+/*- Header Container --*/
+.header-container {
+  padding-top:100px;
+}
+
 
 /* -----------------------Header */
 .navbar {
@@ -14,15 +51,41 @@ body {
   width: 100%;
   text-transform: uppercase;
   font-size: 14px;
+  font-family: var(--header-text);
   font-weight: 700;
   letter-spacing: 0.2rem;
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: var(--black-color) !important;
+  opacity: 0.6;
   padding: 20px 20px;
 }
+
 .navbar-dark .navbar-nav .nav-link {
-  color: #ffffff;
+  color: var(--white-color);
   padding-left: 20px;
 }
+
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover{
-  color: #FFC0CB;
+  color: var(--base-color);
+}
+
+
+
+/* -----------------------Footer */
+
+body>footer {
+  position:sticky;
+  top:100vh;
+}
+
+footer {
+  height: 10vh;
+  width:100%;
+  color: var(--white-color);
+  background: var(--black-color) !important;
+  opacity: 0.6;
+}
+
+#footer-external-links> a {
+  text-decoration: none;
+  color: var(--white-color);
 }
