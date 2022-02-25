@@ -53,6 +53,7 @@ body {
   background: var(--black-color) !important;
   opacity: 0.6;
   padding: 20px 20px;
+  z-index:999;
 }
 
 .navbar-dark .navbar-nav .nav-link {
