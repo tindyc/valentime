@@ -91,6 +91,9 @@ The website is comprised of …
 
 * All Pages on the website have:
 
+  * A favicon icon.
+    ![Favicon Icon](documentation/favicon.webp)
+
 * Future Implementations.
 
 ### Accessibility
