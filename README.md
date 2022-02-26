@@ -77,6 +77,12 @@ Image of colour scheme to go here
 
 Google Fonts was used to import the chosen fonts for use in the site.
 
+* We are using [Dancing Script](https://fonts.google.com/specimen/Dancing+Script?query=dancing+script) for the headers on the site.
+  ![Dancing Script Font](documentation/dancing-script-font.webp)
+
+* We are using [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans?query=josefin+sans) for the body of the site.
+  ![Josefin Sans Font](documentation/josefin-sans-font.webp)
+
 ### Imagery
 
 ### Wireframes
