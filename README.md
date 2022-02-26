@@ -137,19 +137,21 @@ Github - To save and store the files for the website.
 
 Google Fonts - To import the fonts used on the website.
 
-?Font Awesome - For the iconography on the website.
+Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 ?[Tiny PNG](https://tinypng.com/) To compress images.
 
-?[Birme](https://www.birme.net/) To resize images and convert to webp format.
+[Birme](https://www.birme.net/) To resize images and convert to webp format.
 
 [Favicon.io](https://favicon.io/) To create favicon.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 [Shields.io](https://shields.io/) To add badges to the README
+
+[Canva](https://www.canva.com/) To create Greyscale
 
 - - -
 
@@ -227,9 +229,27 @@ We also went through each page using google chrome developer tools to ensure tha
 
 ### Media
 
+#### Index Page
+
+#### Movies Page
+
+#### Category Images
+[Solo Man](https://pixabay.com/photos/tv-man-watching-room-office-3774381/) |
+[Couple](https://www.rawpixel.com/image/404399/free-photo-image-remote-control-couple-woman-watching) |
+[Group](https://www.rawpixel.com/image/391714/free-photo-image-surprised-scared-movie)
+
+##### Film Suggestions Images
+
+#### Food & Drinks Page
+
+#### Games Night Page
+
+#### Contact Us Page
+
+- - -
 ### Acknowledgments
 
-Meet team *** :
+Meet team Cupids Coders :
 
 * [Ionut Zapototchi](https://github.com/lseparatio)
 * [Kelven Hughes](https://github.com/KelvenH)
