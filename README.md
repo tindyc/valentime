@@ -2,11 +2,19 @@
 
 Created for the Code Institute's February 2022 Hackathon, Love is in the air.
 
-Valentime is a site ...
+Valentime: Spend more time creating memories!
+
+During lockdown, we had to rethink what a date night was. The local pub was closed, we were unable to eat at our favourite restaurants, and there were no new films showing at the cinemas.
+
+It would have been great to have a site where a suitable at home date night idea could be randomly selected for you ... so we decided to make that idea a reality!
+
+By using the Valentime site to randomly generating a date night idea based on the category you select, you will have more time to spend on the important stuff - making memories with your loved one ❤️.
+
+And as love comes in all different forms, from self love, the love of a friend group to romantic love - we have created seperate sections for each of these - so leave the pain of choosing what to do in the past, and start using Valentime today!
 
 Add site responsive screenshot here
 
-Link to deployed site to go here
+[Visit the Valentime site here](SITE LINK TO GO HERE)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/tindyc/valentime?logoColor=red&style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/tindyc/valentime?logoColor=orange&style=plastic)
