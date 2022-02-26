@@ -89,7 +89,10 @@ body {
   background-color: var(--grad4-color);
 }
 
-
+.card> a {
+  text-decoration: none;
+  color:  var(--white-color);
+}
 
 /* -----------------------Footer */
 
