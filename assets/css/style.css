@@ -183,6 +183,7 @@ footer {
   justify-content: center;
   align-content: center;
   align-items: center;
+  column-gap: 20px;
 }
 
 .cards__single {
@@ -190,7 +191,11 @@ footer {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  width:80%;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width:100%;
+  column-gap: 20px;
   border-radius: 16px;
   box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
   cursor: pointer;
@@ -202,6 +207,7 @@ footer {
   position: relative;
   -webkit-transition: transform 0.6s;
   transition: transform 0.6s;
+  flex-grow: 1;
 }
 
 .cards__image {
