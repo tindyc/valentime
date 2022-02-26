@@ -41,7 +41,9 @@ h1 {
   font-family: var(--header-text);
 }
 
-
+.hearts-color {
+  color:var(--hearts-color);
+}
 
 /* -----------------------Header */
 
@@ -90,22 +92,22 @@ h1 {
 
 /*-----------------------Item Card */
 
-.card {
-  border:solid 5px var(--accent-color);
-  border-radius: 10px;
+.index-card {
+  background: #a64e43;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
 }
-
 
 .card-body {
-  background-color: var(--grad4-color);
+  height:15vh;
 }
 
-.card> img {
+.index-card> img {
   max-height: 20vh;
   object-fit: cover;
 }
 
-.card> a {
+.index-card> a {
   text-decoration: none;
   color:  var(--white-color);
 }
@@ -113,9 +115,7 @@ h1 {
 /* -----------------------Footer */
 
 footer {
-  margin-top: auto;
-  
-  
+  margin-top: auto;  
 }
 
 footer {
@@ -187,7 +187,7 @@ footer {
 }
 
 .cards__single {
-  background: #a64e43;
+  background: var(--secondary-color);
   display: flex;
   flex-direction: column;
   margin-top: 20px;
