@@ -1,4 +1,16 @@
-let onn = "1"
+let onn = "1";
+
+//Facebook SDK JS
+
+(function(d, s, id) {
+	var js, fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s); js.id = id;
+	js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+	fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+
+
 
 //Flip cards code
 
@@ -17,10 +29,10 @@ if (onn === "1"){
     document.onmousedown = function(e) {
         down = true;
         event = e;
-        console.log(e)
-    }
+        console.log(e);
+    };
 }
-var brd = document.createElement("DIV");
+const brd = document.createElement("DIV");
 document.body.insertBefore(brd, document.getElementById("heart"));
 
 const duration = 3000;
@@ -28,11 +40,11 @@ const speed = 0.5;
 const cursorXOffset = 0;
 const cursorYOffset = -5;
 
-var hearts = [];
+const hearts = [];
 		
 function generateHeart(x, y, xBound, xStart, scale)
 {
-	var heart = document.createElement("DIV");
+	const heart = document.createElement("DIV");
 	heart.setAttribute('class', 'heart');
 	brd.appendChild(heart);
 	heart.time = duration;
@@ -50,42 +62,42 @@ function generateHeart(x, y, xBound, xStart, scale)
 	return heart;
 }
 
-var down = false;
-var event = null;
+let down = false;
+let event = null;
 
 document.onmouseup = function(e) {
 	down = false;
-}
+};
 
 document.onmousemove = function(e) {
 	event = e;
-}
+};
 
 document.ontouchstart = function(e) {
 	down = true;
 	event = e.touches[0];
-}
+};
 
 document.ontouchend = function(e) {
 	down = false;
-}
+};
 
 document.ontouchmove = function(e) {
 	event = e.touches[0];
-}
+};
 
-var before = Date.now();
-var id = setInterval(frame, 5);
-var gr = setInterval(check, 100);
+let before = Date.now();
+const id = setInterval(frame, 5);
+const gr = setInterval(check, 100);
 
 function frame()
 {
-	var current = Date.now();
-	var deltaTime = current - before;
+	let current = Date.now();
+	let deltaTime = current - before;
 	before = current;
-	for(i in hearts)
+	for(let i in hearts)
 	{
-		var heart = hearts[i];
+		let heart = hearts[i];
 		heart.time -= deltaTime;
 		if(heart.time > 0)
 		{
@@ -105,9 +117,9 @@ function check()
 {
 	if(down)
 	{
-		var start = 1 - Math.round(Math.random()) * 2;
-		var scale = Math.random() * Math.random() * 0.8 + 0.2;
-		var bound = 30 + Math.random() * 20;
+		const start = 1 - Math.round(Math.random()) * 2;
+		const scale = Math.random() * Math.random() * 0.8 + 0.2;
+		const bound = 30 + Math.random() * 20;
 		generateHeart(event.pageX - brd.offsetLeft + cursorXOffset, event.pageY - brd.offsetTop + cursorYOffset, bound, start, scale);
 	}
 }
