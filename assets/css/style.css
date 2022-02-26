@@ -100,7 +100,15 @@ h1 {
   background-color: var(--grad4-color);
 }
 
+.card> img {
+  max-height: 20vh;
+  object-fit: cover;
+}
 
+.card> a {
+  text-decoration: none;
+  color:  var(--white-color);
+}
 
 /* -----------------------Footer */
 
@@ -111,7 +119,6 @@ footer {
 }
 
 footer {
-  height: 10vh;
   width:100%;
   color: var(--white-color);
   background: var(--secondary-color) !important;
