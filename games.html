@@ -27,7 +27,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
 
   <!-- Page Title -->
-  <title>Valentime - CATEGORY NAME HERE</title>
+  <title>Valentime - Games</title>
 
   <script src="https://kit.fontawesome.com/d01fd203b5.js" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -36,6 +36,9 @@
   
 </head>
 <body>
+
+    <!--Emplty Div Where Hearts Are Created-->
+    <div id="heart"></div>
 
     <header>
         <!--Navigation Start-->
@@ -67,7 +70,6 @@
         <!-- Page Title-->
         <div>
             <h1 class="text-center mt-4">Have Some Fun!</h1>
-            <h2 class="text-center mt-4"><em>Spend time.....create memories!</em></h2>
         </div>
 
 
@@ -81,74 +83,136 @@
         </div>
 
         <!--Main content-->
-        <div class="container mt-5 text-center">
-            <div class="row">
 
-                    <!--item 1-->
-                    <div class="col-12 col-md-4 mt-3">
-                        <h3>For the Singletons</h3>
-                        <div class="card bg-transparent">
-                            <img src="/assets/images/controller.jpeg" class="card-img-top" alt="">
-                            <div class="card-body">
-                            <p class="card-text">Being on your own doesn't mean you are excluded from the fun! These ideas are just for you and could spark new special friendships!</p>
-                            </div>
-                        </div>
-                    </div>
+        <section class="cards">
+            <!--item 1-->
+            <div class="cards__single card">
 
-                    <!--item 2-->
-                    <div class="col-12 col-md-4 mt-3">
-                        <h3>Play at Home Together</h3>
-                        <div class="card bg-transparent">
-                            <img src="/assets/images/tic_tac_toe.jpeg" class="card-img-top" alt="">
-                            <div class="card-body">
-                            <p class="card-text">Challenge your partner with these fun games... who knows where the fun will end?!</p>
-                            </div>
-                        </div>
+                <div class="cards__front">
+                    <h3 class="p-3">For the Singletons</h3>
+                    <img src="assets/images/controller.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Being on your own doesn't mean you are excluded from the fun! These ideas are just for you and could spark new special friendships!</p>
                     </div>
-
-                    <!--item 3-->
-                    <div class="col-12 col-md-4 mt-3">
-                        <h3>Online Experiences</h3>
-                        <div class="card bg-transparent">
-                            <img src="/assets/images/loading.jpeg" class="card-img-top" alt="">
-                            <div class="card-body">
-                            <p class="card-text">Don't let distance stop the excitement. Grab your phone and take the fun online!</p>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+                <div class="cards__back">
+                    <h1>This is the back of the card</h1>
+                </div>
             </div>
-        </div>
 
+            <!--item 2-->
+            <div class="cards__single">
+                <div class="cards__front">
+                    <h3 class="p-3">Play at Home Together</h3>
+                    <img src="assets/images/tic_tac_toe.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Challenge your partner with these fun games... who knows where the fun will end?!</p>
+                    </div>
+                </div>
+                <div class="cards__back">
+                    <h1>This is the back of the card</h1>
+                </div>
+            </div>
+
+            <!--item 3-->
+            <div class="cards__single">
+                <div class="cards__front">
+                    <h3 class="p-3">Online Experiences</h3>
+                    <img src="assets/images/loading.jpeg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <p class="card-text">Don't let distance stop the excitement. Grab your phone and take the fun online!</p>
+                    </div>
+                </div>
+                <div class="cards__back">
+                    <h1>This is the back of the card</h1>
+                </div>
+            </div>
+        </section>
 
     </main>
 
     <footer class="container-fluid">
         <div class="container-lg">
-          <div class="py-3">
-            <div class="row">
+            <div class="py-3">
+                <div class="row">
 
-              <!-- Copyright -->
-              <div class="col-4 d-flex align-items-center">
-                <p>&copy; Cupids Coders 2022</p>
-              </div>
-              
-              <!-- Logo -->
-              <div class="col-4 align-items-center text-center">
-                <h1 class="display-6">
-                  Valentime
-              </div>
+                    <!-- Copyright -->
+                    <div class="col-4 d-flex align-items-center">
+                        <p>&copy; Cupids Coders 2022</p>
+                    </div>
+                    
+                    <!-- Logo -->
+                    <div class="col-4 align-items-center text-center">
+                        <h1 class="display-6">
+                        Valentime
+                    </div>
 
-              <!-- Social Media links -->
-              <div id="footer-external-links" class="col-4 d-flex flex-wrap justify-content-between align-items-center">
-                <a href="https://www.facebook.com/" rel="noopener" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-                <a href="https://www.twitter.com/" rel="noopener" target="_blank"><i class="fab fa-twitter-square fa-2x" ></i></a>
-                <a href="https://www.instagram.com/" rel="noopener" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>          
-                <a href="https://www.youtube.com/" rel="noopener" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-              </div>
+                    <!-- Social Media links -->
+                    <div id="footer-external-links" class="col-4 d-flex flex-wrap justify-content-between align-items-center">
+                        <a href="https://www.facebook.com/" rel="noopener" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                        <a href="https://www.twitter.com/" rel="noopener" target="_blank"><i class="fab fa-twitter-square fa-2x" ></i></a>
+                        <a href="https://www.instagram.com/" rel="noopener" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>          
+                        <a href="https://www.youtube.com/" rel="noopener" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
+                    </div>
 
+                </div>
             </div>
-          </div>
         </div>
-      </footer>
+    </footer>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
+
+<!----Temp collection of url links:
+  Solo
+  
+    Club Penguin
+    Free to play - make new friends and solve puzzles together in this frozen virtual world
+    https://cprewritten.net/
+    
+    MiniClip
+    Large selection of multiplayer games available on desktop and mobile. Make new friends as you team up for a challange.
+    https://www.miniclip.com/games/genre-2/multiplayer/en/
+
+    
+    Best Games to Meet People Online
+    Some of the best games with communities to meet new people
+    https://www.esquireme.com/gaming/44920-lonely-these-are-the-best-games-to-make-friends-online
+
+    
+Together
+
+    Guess the Song (Android)
+    Guess the Song is a fun mobile game where you can go head-to-head in a battle to see who can identify songs faster
+    https://play.google.com/store/apps/details?id=quess.song.music.pop.quiz
+
+    
+    Romantic Games for Couples
+    Rid the monotonous routine with some fun romantic games that are easy to play and a great way to spice things up.
+    https://www.marriage.com/advice/romance/fun-and-romantic-games-for-couples/
+    
+    21 Fun Games to Play at home
+    Suggestions for couples to interact in new and unique ways to strengthen your connections.
+    https://www.stylecraze.com/articles/games-for-couples/
+
+
+  OnLine
+
+    Virtual Game Night
+    Get ready for some wholesome laughs and bonding with your partner with a virtual game night! 
+    https://www.letsroam.com/roam_from_home/virtual_game_night
+
+    Psych
+    Mime the clues as your partner guesses for some laugh out moments! 
+    https://www.warnerbros.com/games-and-apps/psych-outwit-your-friends
+
+    Text Chat Games
+    A curated list of 30 of the best games and suggestions to play with your partner by phone!
+    https://parade.com/1043064/marynliles/texting-games/
+    
+    SnapChat Games
+    Have a phone, have SnapChat, then try one of these fun SnapChat games!
+    https://beebom.com/best-snapchat-games/
+   
+
+-->
