@@ -37,7 +37,9 @@ body {
     flex-direction: column;
 }
 
-
+h1 {
+  font-family: var(--header-text);
+}
 
 
 
@@ -57,7 +59,7 @@ body {
 }
 
 .navbar-brand {
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-family: var(--header-text);
 }
 
@@ -113,6 +115,10 @@ footer {
   width:100%;
   color: var(--white-color);
   background: var(--secondary-color) !important;
+}
+
+.footer-project-name {
+  font-size: 2rem;
 }
 
 #footer-external-links> a {
