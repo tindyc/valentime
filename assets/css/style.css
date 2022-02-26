@@ -47,7 +47,6 @@ body {
   overflow: hidden;
   position: fixed;
   width: 100%;
-  /*text-transform: uppercase;*/
   font-size: 14px;
   font-family: var(--header-text);
   font-weight: 700;
@@ -55,6 +54,16 @@ body {
   background: var(--secondary-color) !important;
   padding: 20px 20px;
   z-index:999;
+}
+
+.navbar-brand {
+  font-size: 2.25rem;
+  font-family: var(--header-text);
+}
+
+.nav-link {
+  font-size: 20px;
+  font-family: var(--content-text);
 }
 
 .navbar-dark .navbar-nav .nav-link {
