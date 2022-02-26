@@ -13,9 +13,11 @@
   --grad2-color: #FE95BE;
   --grad3-color: #FA7FBD;
   --grad4-color: #F269BF;
+  --secondary-color: #7A4E5A;
   --accent-color: #E64B18;
   --white-color: #FFFFFF;
   --black-color: #000000;
+  --hearts-color: #ff094f;
 }
 
 /* Global styles */
@@ -50,9 +52,9 @@ body {
   font-family: var(--header-text);
   font-weight: 700;
   letter-spacing: 0.2rem;
-  background: var(--black-color) !important;
-  opacity: 0.6;
+  background: var(--secondary-color) !important;
   padding: 20px 20px;
+  z-index:999;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -101,8 +103,7 @@ footer {
   height: 10vh;
   width:100%;
   color: var(--white-color);
-  background: var(--black-color) !important;
-  opacity: 0.6;
+  background: var(--secondary-color) !important;
 }
 
 #footer-external-links> a {
@@ -113,3 +114,39 @@ footer {
 #footer-external-links> a:hover {
   color: var(--base-color);
 }
+
+/*---Hearts on click---*/
+
+@keyframes heartfade {
+	0% {
+	  opacity : 1;
+  }
+	50% {
+	  opacity : 0;
+  }
+}
+.heart {
+	z-index : 999;
+	animation : heartfade 6s linear;
+	position : absolute; 
+}
+.heart:before,
+.heart:after {
+	content : "";
+	background-color : var(--hearts-color);
+	position : absolute;
+	height : 30px;
+	width : 45px;
+	border-radius : 15px 0px 0px 15px;
+}
+
+.heart:before {
+	transform : rotate(45deg);
+}
+
+.heart:after {
+	left : 10.5px;
+	transform : rotate(135deg);
+}
+
+/*---End Hearts on click---*/
