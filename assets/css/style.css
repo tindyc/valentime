@@ -108,7 +108,6 @@ footer {
 }
 
 footer {
-  height: 10vh;
   width:100%;
   color: var(--white-color);
   background: var(--secondary-color) !important;
