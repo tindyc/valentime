@@ -161,6 +161,7 @@ footer {
 
 .footer-project-name {
   font-size: 2rem;
+  color: var(--white-color);
 }
 
 #footer-external-links> a {
