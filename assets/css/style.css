@@ -261,6 +261,11 @@ footer {
   }
 }
 
+.card-img , .card-img-top{
+  object-fit: cover;
+  max-height: 150px;
+} */
+
 /* -----------------------Contact */
 .contact-form{
   margin-top: 1%;
