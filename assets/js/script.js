@@ -9,82 +9,137 @@ const cardData = {
 	gameSolo: [{
 		title: "Club Penguin",
 		url: "https://cprewritten.net/",
-		image: "assets/images/noimage.png",
+		image: "assets/images/controller.jpeg",
 		label: "Free to play - make new friends and solve puzzles together in this frozen virtual world"
 	},
 	{
 		title: "MiniClip",
 		url: "https://www.miniclip.com/games/genre-2/multiplayer/en/",
-		image: "assets/images/noimage.png",
+		image: "assets/images/controller.jpeg",
 		label: "Large selection of multiplayer games available on desktop and mobile. Make new friends as you team up for a challenge."
 	},
 	{
 		title: "Best Games to Meet People Online",
 		url: "https://www.esquireme.com/gaming/44920-lonely-these-are-the-best-games-to-make-friends-online",
-		image: "assets/images/noimage.png",
+		image: "assets/images/controller.jpeg",
 		label: "Some of the best games with communities to meet new people"
 	}],
  	gameCouples: [{
 		title: "Guess the Song (Android)",
 		url: "  https://play.google.com/store/apps/details?id=quess.song.music.pop.quiz",
-		image: "",
+		image: "assets/images/tic_tac_toe.jpeg",
 		label: " Guess the Song is a fun mobile game where you can go head-to-head in a battle to see who can identify songs faster"
 	},
 	{
 		title: "Steamy Role Play",
 		url: "https://www.thedatingdivas.com/10-super-steamy-stories-for-roleplay-romance/",
-		image: "",
+		image: "assets/images/tic_tac_toe.jpeg",
 		label: "Roleplay is an exciting way to add some spice, grab some props and bring your fantasy scenarios to life!"
 	},
 	{	
 		title: "Sexy Dice Game",
 		url: "https://www.thedatingdivas.com/sexy-dice-intimate-date-night/",
-		image: "",
+		image: "assets/images/tic_tac_toe.jpeg",
 		label: "Give this free printable sexy dice game a roll and see just how fun an intimate date night can be."
 	},
 	{
 		title: "Sexy Tic Tac Toe",
 		url: "https://www.thedatingdivas.com/sexy-tic-tac-toe/",
-		image: "",
+		image: "assets/images/tic_tac_toe.jpeg",
 		label: "Spice things up with this spin on an old classic. With steamy action cards no matter who wins the game you'll both be winners tonight!"
 	},
 	{
 		title: "Romantic Games for Couples",
 		url: "https://www.marriage.com/advice/romance/fun-and-romantic-games-for-couples/",
-		image: "",
+		image: "assets/images/tic_tac_toe.jpeg",
 		label: "Rid the monotonous routine with some fun romantic games that are easy to play and a great way to spice things up."
 	},
 	{
 		title: "21 Fun Games to Play at home",
-		url: "https://www.thedatingdivas.com/sexy-tic-tac-toe/",
-		image: "https://www.stylecraze.com/articles/games-for-couples/",
+		url: "https://www.stylecraze.com/articles/games-for-couples/",
+		image: "assets/images/tic_tac_toe.jpeg",
 		label: "Suggestions for couples to interact in new and unique ways to strengthen your connections."
 	}],
  	gameOnline: [{
 		title: "Virtual Game Night",
 		url: "https://www.letsroam.com/roam_from_home/virtual_game_night",
-		image: "",
+		image: "assets/images/loading.jpeg",
 		label: "Get ready for some wholesome laughs and bonding with your partner with a virtual game night! "
 	},
 	{
 		title: "Psych",
 		url: "https://www.warnerbros.com/games-and-apps/psych-outwit-your-friends",
-		image: "",
+		image: "assets/images/loading.jpeg",
 		label: " Mime the clues as your partner guesses for some laugh out moments!"
 	},
 	{
 		title: "SnapChat Games",
 		url: "https://beebom.com/best-snapchat-games/",
-		image: "",
-		label: " Have a phone, have SnapChat, then try one of these fun SnapChat games!"
+		image: "assets/images/loading.jpeg",
+		label: "Have a phone, have SnapChat, then try one of these fun SnapChat games!"
 	},
 	{
 		title: "Text Chat Games",
 		url: "https://parade.com/1043064/marynliles/texting-games/",
-		image: "",
+		image: "assets/images/loading.jpeg",
 		label: "A curated list of 30 of the best games and suggestions to play with your partner by phone!"
-	}]
+	}],
+	foodCook: [{
+		title: "Spicy Pesto Pasta Alla Vodka",
+		url: "https://www.youtube.com/results?search_query=Spicy+Pesto+Pasta+Alla+Vodka",
+		image: "",
+		label: "Enjoy the flavors and taste of... authentic Italian cuisine."
+		},
+		{
+		title: "Crispy Honey Glazed Chicken Thighs",
+		url: "https://www.youtube.com/results?search_query=Crispy+Honey+Glazed+Chicken+Thighs",
+		image: "",
+		label: "Tweak the flavor of Chicken to suit all taste buds."
+		},
+		{
+		title: "Roasted Salmon Nicoise",
+		url: "https://www.youtube.com/results?search_query=roasted+salmon+nicoise",
+		image: "",
+		label: "As healthy as it could be"
+		}],
+	foodBake: [{
+		title: "Red velvet cupcakes",
+		url: "https://www.youtube.com/results?search_query=Red+velvet+cupcakes",
+		image: "",
+		label: "Cake is incredibly soft, moist, buttery, and topped with an easy cream cheese frosting."
+		},
+		{
+		title: "Persian Love Cake",
+		url: "https://www.youtube.com/results?search_query=Persian+Love+Cake",
+		image: "",
+		label: "A fragrant rose cake flavored with freshly ground cardamom and topped with crushed pistachios and rose "
+		},
+		{
+		title: "Fudgy Brownies",
+		url: "https://www.youtube.com/results?search_query=Fudgy+Brownies+",
+		image: "",
+		label: "These brownies are rich, fudgy in the middle and have a higher fat-to-flour ratio than cakey ones."
+		}],
+	foodShake: [{
+		title: "Strawberry Margarita",
+		url: "https://www.youtube.com/results?search_query=Strawberry+Margarita",
+		image: "",
+		label: "A near perfect strawberry margarita with frozen strawberries and limeade concentrate."
+		},
+		{
+		title: "Love Potion No. 9",
+		url: "https://www.youtube.com/results?search_query=love+potion+no.+9+cocktail",
+		image: "",
+		label: "A a sweet, spicy non-alcoholic drink."
+		},
+		{
+		title: "Classic Mudslide",
+		url: "https://www.youtube.com/results?search_query=Classic+Mudslide",
+		image: "",
+		label: "A delicious dessert cocktail "
+		}]
 };
+
 
 //Facebook SDK JS
 
@@ -131,7 +186,7 @@ function flipCard(e) {
 let allCardChoices = {}
 
 function randomCard(elParentId) {
-	if (elParentId == "game-single") {
+	if (elParentId == "game-solo") {
 		console.log("random from game-single");
 		allCardChoices = cardData.gameSolo;
 	}
@@ -143,8 +198,20 @@ function randomCard(elParentId) {
 		console.log("random from game-online");
 		allCardChoices = cardData.gameOnline;
 	}
+	else if (elParentId == "food-cook") {
+		console.log("random from food cook");
+		allCardChoices = cardData.foodCook;
+	}
+	else if (elParentId == "food-bake") {
+		console.log("random from food bake");
+		allCardChoices = cardData.foodBake;
+	}
+	else if (elParentId == "food-shake") {
+		console.log("random from food-shake");
+		allCardChoices = cardData.foodShake;
+	}
 
-	/// add if statements here for all cardIDs and map to correct data set ///
+	
 	
 	else {
 		allCardChoices = cardData.empty;
@@ -168,18 +235,33 @@ function randomCard(elParentId) {
 
 
 	let cardHtml = `
-		<a href="${randomSelection.url}">
-			<h3 class="p-3">${randomSelection.title}</h3>
-			<img src="${randomSelection.image}" class="card-img-top" alt="">
-			<div class="card-body">
-				<p class="card-text">${randomSelection.label}</p>
-			</div>
-		</a>
+		<h3 class="p-3">${randomSelection.title}</h3>
+		<img src="${randomSelection.image}" class="card-img-top">
+		<div class="card-body">
+			<p class="card-text">${randomSelection.label}</p>
+		<a class="btn visit-btn" href="${randomSelection.url}" target=”_blank” role="button">Click here to visit</a>
+		</div>
     `;
 	
-	document.getElementById('game-solo-back').innerHTML = cardHtml;
-
-}
+	if (elParentId == "game-solo") {
+		document.getElementById('game-solo-back').innerHTML = cardHtml;
+	}
+	else if (elParentId == "game-couples") {
+		document.getElementById('game-couples-back').innerHTML = cardHtml;
+	}
+	else if (elParentId == "game-online") {
+		document.getElementById('game-online-back').innerHTML = cardHtml;
+	}
+	else if (elParentId == "food-bake") {
+		document.getElementById('food-bake-back').innerHTML = cardHtml;
+	}
+	else if (elParentId == "food-cook") {
+		document.getElementById('food-cook-back').innerHTML = cardHtml;
+	}
+	else if (elParentId == "food-shake") {
+		document.getElementById('food-shake-back').innerHTML = cardHtml;
+	}
+};
 
 
 

@@ -235,16 +235,30 @@ footer {
 }
 
 .cards__back {
+  background: var(--grad4-color);
+  border-radius:16px;
+  height: 100%;
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   position: absolute;
   text-align: center;
   right: 0;
   left: 0;
-  top: 10px;
-  color: #20263f;
+  top: 0px;
 }
 
+.visit-btn {
+  background-color: var(--grad1-color);
+  color:var(--secondary-color);
+  border: solid 1px var(--white-color);
+  border-radius: 10px;
+}
+
+.visit-btn:hover {
+  background-color: var(--grad3-color);
+  color:var(--white-color);
+  box-shadow: -2px -2px 3px var(--base-color), 1px 1px 1px var(--grad1-color), 1px 2px 1px var(--grad2-color), 1px 3px 1px var(--grad3-color), 1px 4px 1px var(--grad4-color);
+}
 
 @media (min-width: 768px) {
   .cards {
@@ -264,7 +278,7 @@ footer {
 .card-img , .card-img-top{
   object-fit: cover;
   max-height: 150px;
-} */
+} 
 
 /* -----------------------Contact */
 .contact-form{
