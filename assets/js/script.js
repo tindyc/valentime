@@ -381,7 +381,8 @@ function randomCard(elParentId) {
 		<img src="${randomSelection.image}" class="card-img-top">
 		<div class="card-body">
 			<p class="card-text">${randomSelection.label}</p>
-		<a class="btn visit-btn" href="${randomSelection.url}" target=”_blank” role="button">Click here to visit</a>
+			<a class="btn visit-btn" href="${randomSelection.url}" target=”_blank” role="button">Click here to visit</a>
+			<div class="fb-share-button" data-href="https://lseparatio.github.io/valentime/" data-layout="button_count"></div>
 		</div>
     `;
 	
