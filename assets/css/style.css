@@ -39,6 +39,8 @@ body {
 
 h1 {
   font-family: var(--header-text);
+  font-size: 5rem;
+  color: var(--hearts-color);
 }
 
 .hearts-color {
@@ -138,7 +140,7 @@ h1 {
 
 @media (min-width: 1200px) {
   .card-body {
-    height:15vh;
+    height:25vh;
   }
 }
 
@@ -277,16 +279,21 @@ footer {
   top: 0px;
 }
 
+.card-text {
+  font-size: 1.25rem;
+}
+
 .visit-btn {
-  background-color: var(--grad1-color);
-  color:var(--secondary-color);
-  border: solid 1px var(--white-color);
+  background-color: var(--accent-color);
+  color:var(--white-color);
   border-radius: 10px;
+  font-size: 1.25rem;
+  width: 100%;
 }
 
 .visit-btn:hover {
-  background-color: var(--grad3-color);
-  color:var(--white-color);
+  background-color: var(--white-color);
+  color:var(--accent-color);
   box-shadow: -2px -2px 3px var(--base-color), 1px 1px 1px var(--grad1-color), 1px 2px 1px var(--grad2-color), 1px 3px 1px var(--grad3-color), 1px 4px 1px var(--grad4-color);
 }
 
@@ -296,6 +303,9 @@ footer {
   color:var(--white-color);
   opacity:1;
 }
+
+
+/*---  Media Queries---*/
 
 @media (min-width: 768px) {
   .cards {
@@ -313,8 +323,8 @@ footer {
 }
 
 .card-img , .card-img-top{
-  object-fit: cover;
-  max-height: 30vh;
+  object-fit: contain;
+  max-height: 40vh;
 } 
 
 /* -----------------------Contact */
