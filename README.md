@@ -240,6 +240,17 @@ We also went through each page using google chrome developer tools to ensure tha
 
 ##### Film Suggestions Images
 
+* Solo
+
+  [How to be single](https://www.imdb.com/title/tt1292566/mediaviewer/rm1563878144/) | [Romie & Micheles High School reunion](https://www.imdb.com/title/tt0120032/mediaviewer/rm3693776641/) | [La la land](https://www.imdb.com/title/tt3783958/mediaviewer/rm3967749632/) | [He's just not that into you](https://www.imdb.com/title/tt1001508/mediaviewer/rm2221312512/) | [Magic Mike](https://www.imdb.com/title/tt1915581/mediaviewer/rm2370876672/)
+* Couple
+
+  [Romeo & Juliet](https://image.tmdb.org/t/p/original/zWLZEUE0jrTiLhWQVh8NOJRwIU9.jpg) | [The Vow](https://www.imdb.com/title/tt1606389/mediaviewer/rm2093465088/) | [Sleepless in Seattle](https://www.imdb.com/title/tt0108160/mediaviewer/rm2444975104/) | [The Notebook](https://www.imdb.com/title/tt0332280/mediaviewer/rm1153669376/) | [The wedding singer](https://www.imdb.com/title/tt0120888/mediaviewer/rm2194422016/)
+
+* Group
+
+  [Girls trip](https://www.imdb.com/title/tt3564472/mediaviewer/rm3929943808/) | [The sweetest thing](https://www.imdb.com/title/tt0253867/mediaviewer/rm1028787712/) | [The proposal](https://www.imdb.com/title/tt1041829/mediaviewer/rm2227985664/) | [My best friends wedding](https://www.imdb.com/title/tt0119738/mediaviewer/rm691035136/) | [Someone great](https://www.imdb.com/title/tt8075260/mediaviewer/rm2056744192/)
+
 #### Food & Drinks Page
 
 #### Games Night Page
