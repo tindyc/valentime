@@ -14,7 +14,7 @@ And as love comes in all different forms, from self love, the love of a friend g
 
 Add site responsive screenshot here
 
-[Visit the Valentime site here](SITE LINK TO GO HERE)
+[Visit the Valentime site here](https://tindyc.github.io/valentime/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/tindyc/valentime?logoColor=red&style=plastic)
 ![GitHub contributors](https://img.shields.io/github/contributors/tindyc/valentime?logoColor=orange&style=plastic)
