@@ -121,6 +121,7 @@ The website is comprised of:
 3. Food and drink page.
 4. Games night page.
 5. Contact us page.
+6. 404 error page.
 
 All Pages on the website have:
 
@@ -130,6 +131,8 @@ All Pages on the website have:
     ![Navbar](documentation/navbar.webp)
 * A responsive footer.
     ![Footer](documentation/footer.webp)
+* An interactive heart effect on click - this can be switched on or off in the footer.
+  ![Heart interactive click effect](documentation/heart-click.gif)
 
 * Future Implementations.
 
@@ -265,7 +268,8 @@ Images acquired under licence from Adobe Stock:
 
 #### Movies Page
 
-#### Category Images
+#### Movie Category Images
+
 [Solo Man](https://pixabay.com/photos/tv-man-watching-room-office-3774381/) |
 [Couple](https://www.rawpixel.com/image/404399/free-photo-image-remote-control-couple-woman-watching) |
 [Group](https://www.rawpixel.com/image/391714/free-photo-image-surprised-scared-movie)
@@ -286,7 +290,8 @@ Images acquired under licence from Adobe Stock:
 
 #### Food & Drinks Page
 
-#### Category Images
+#### Food & Drink Category Images
+
 [Dinner Table](https://www.pexels.com/photo/candles-cutlery-flatware-fork-290524/) |
 [Glasses With Cocktails](https://www.pexels.com/photo/glasses-with-alcoholic-beverages-5379762/) |
 [Macarons Around A Cake](https://www.pexels.com/photo/macarons-around-a-pink-cake-4887830/) |
@@ -296,7 +301,12 @@ Images acquired under licence from Adobe Stock:
 #### Contact Us Page
 
 The images of each team member belong to the individual.
+
+#### 404 Error Page
+
+[Broken Heart](https://pixabay.com/illustrations/heart-broken-heart-separation-1966018/)
 - - -
+
 ### Acknowledgments
 
 Meet team Cupids Coders :
