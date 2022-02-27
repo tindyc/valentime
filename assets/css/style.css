@@ -85,6 +85,13 @@ h1 {
   padding-top:100px;
 }
 
+@media (min-width: 768px) and (max-width:800px) {
+  .header-container {
+    padding-top:150px;
+  }
+}
+
+
 .sub-content {
   height: 5vh;
 }
@@ -493,7 +500,7 @@ footer {
 
 .toggle-cursor {
   position:relative;
-  left: 5vw;
+  left: 0;
 }
 
 .toggle-cursor p {
