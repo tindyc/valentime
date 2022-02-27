@@ -6,7 +6,8 @@ const cardData = {
 		image: "",
 		label: ""
 	}],
-	gameSolo: [{
+	gameSolo: [
+	{
 		title: "Club Penguin",
 		url: "https://cprewritten.net/",
 		image: "assets/images/controller.jpeg",
@@ -24,9 +25,10 @@ const cardData = {
 		image: "assets/images/controller.jpeg",
 		label: "Some of the best games with communities to meet new people"
 	}],
- 	gameCouples: [{
+ 	gameCouples: [
+	{
 		title: "Guess the Song (Android)",
-		url: "  https://play.google.com/store/apps/details?id=quess.song.music.pop.quiz",
+		url: "https://play.google.com/store/apps/details?id=quess.song.music.pop.quiz",
 		image: "assets/images/tic_tac_toe.jpeg",
 		label: " Guess the Song is a fun mobile game where you can go head-to-head in a battle to see who can identify songs faster"
 	},
@@ -60,7 +62,8 @@ const cardData = {
 		image: "assets/images/tic_tac_toe.jpeg",
 		label: "Suggestions for couples to interact in new and unique ways to strengthen your connections."
 	}],
- 	gameOnline: [{
+ 	gameOnline: [
+	{
 		title: "Virtual Game Night",
 		url: "https://www.letsroam.com/roam_from_home/virtual_game_night",
 		image: "assets/images/loading.jpeg",
@@ -84,60 +87,152 @@ const cardData = {
 		image: "assets/images/loading.jpeg",
 		label: "A curated list of 30 of the best games and suggestions to play with your partner by phone!"
 	}],
-	foodCook: [{
+	foodCook: [
+	{
 		title: "Spicy Pesto Pasta Alla Vodka",
 		url: "https://www.youtube.com/results?search_query=Spicy+Pesto+Pasta+Alla+Vodka",
 		image: "",
 		label: "Enjoy the flavors and taste of... authentic Italian cuisine."
-		},
-		{
+	},
+	{
 		title: "Crispy Honey Glazed Chicken Thighs",
 		url: "https://www.youtube.com/results?search_query=Crispy+Honey+Glazed+Chicken+Thighs",
 		image: "",
 		label: "Tweak the flavor of Chicken to suit all taste buds."
-		},
-		{
+	},
+	{
 		title: "Roasted Salmon Nicoise",
 		url: "https://www.youtube.com/results?search_query=roasted+salmon+nicoise",
 		image: "",
 		label: "As healthy as it could be"
-		}],
-	foodBake: [{
+	}],
+	foodBake: [
+	{
 		title: "Red velvet cupcakes",
 		url: "https://www.youtube.com/results?search_query=Red+velvet+cupcakes",
 		image: "",
 		label: "Cake is incredibly soft, moist, buttery, and topped with an easy cream cheese frosting."
-		},
-		{
+	},
+	{
 		title: "Persian Love Cake",
 		url: "https://www.youtube.com/results?search_query=Persian+Love+Cake",
 		image: "",
 		label: "A fragrant rose cake flavored with freshly ground cardamom and topped with crushed pistachios and rose "
-		},
-		{
+	},
+	{
 		title: "Fudgy Brownies",
 		url: "https://www.youtube.com/results?search_query=Fudgy+Brownies+",
 		image: "",
 		label: "These brownies are rich, fudgy in the middle and have a higher fat-to-flour ratio than cakey ones."
-		}],
+	}],
 	foodShake: [{
 		title: "Strawberry Margarita",
 		url: "https://www.youtube.com/results?search_query=Strawberry+Margarita",
 		image: "",
 		label: "A near perfect strawberry margarita with frozen strawberries and limeade concentrate."
-		},
-		{
+	},
+	{
 		title: "Love Potion No. 9",
 		url: "https://www.youtube.com/results?search_query=love+potion+no.+9+cocktail",
 		image: "",
 		label: "A a sweet, spicy non-alcoholic drink."
-		},
-		{
+	},
+	{
 		title: "Classic Mudslide",
 		url: "https://www.youtube.com/results?search_query=Classic+Mudslide",
 		image: "",
 		label: "A delicious dessert cocktail "
-		}]
+	}],
+	movieSolo: [{
+		title: "How to be Single",
+		url: "https://www.imdb.com/video/vi49721881?playlistId=tt1292566&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/how-to-be-single.webp",
+		label: "(2016) Comedy, Drama, Romance"
+	},
+	{
+		title: "Romie & Micheles High School Reunion",
+		url: "https://www.imdb.com/video/vi1849802265?playlistId=tt0120032&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/romy-michele.webp",
+		label: "(1997) Comedy"
+	},
+	{
+		title: "He's Just Not That Into You",
+		url: "https://www.imdb.com/video/vi1239875865?playlistId=tt1001508&ref_=tt_ov_vi",
+		image: "assets/images/movies-page/not-into-you.webp",
+		label: "(2009) Comedy, Drama, Romance"
+	},
+	{
+		title: "Magic Mike",
+		url: "https://www.imdb.com/video/vi889627417?playlistId=tt1915581&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/magic-mike.webp",
+		label: "(2012) Comedy, Drama"
+	},
+	{
+		title: "La La Land",
+		url: "https://www.imdb.com/video/vi2514728473?playlistId=tt3783958&ref_=tt_ov_vi",
+		image: "assets/images/movies-page/lala-land.webp",
+		label: "(2016) Comedy, Drama, Musical, Romance"
+	}],
+	movieCouples: [{
+		title: "The Wedding Singer",
+		url: "https://www.imdb.com/video/vi3125853209?playlistId=tt0120888&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/wedding-singer.webp",
+		label: "(1998) Comedy, Romance, Music"
+	},
+	{
+		title: "The Notebook",
+		url: "https://www.imdb.com/video/vi2603746073?playlistId=tt0332280&ref_=tt_ov_vi",
+		image: "assets/images/movies-page/notebook.webp",
+		label: "(2004) Romance, Drama"
+	},
+	{
+		title: "Romeo & Juliet",
+		url: "https://www.imdb.com/video/vi58720537?playlistId=tt0117509&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/romeo-juliet.webp",
+		label: "(1996) Drama, Romance"
+	},
+	{
+		title: "The Vow",
+		url: "https://www.imdb.com/video/vi236559897?playlistId=tt1606389&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/vow.webp",
+		label: "(2012) Drama, Romance"
+	},
+	{
+		title: "Sleepless in Seattle",
+		url: "https://www.imdb.com/video/vi727367449?playlistId=tt0108160&ref_=tt_ov_vi",
+		image: "assets/images/movies-page/sleepless-seattle.webp",
+		label: "(1993) Comedy, Drama, Romance"
+	}],
+	movieFriends: [{
+		title: "Girls Trip",
+		url: "https://www.imdb.com/video/vi3164191001?playlistId=tt3564472&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/girls-trip.webp",
+		label: "(2017) Comedy, Drama, Adventure"
+	},
+	{
+		title: "The Sweetest Thing",
+		url: "https://www.imdb.com/video/vi1509622041?playlistId=tt0253867&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/sweetest-thing.webp",
+		label: "(2002) Comedy, Romance"
+	},
+	{
+		title: "The Proposal",
+		url: "https://www.imdb.com/video/vi125895193?playlistId=tt1041829&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/proposal.webp",
+		label: "(2009) Comedy, Drama, Romance"
+	},
+	{
+		title: "My Best Friends Wedding",
+		url: "https://www.imdb.com/video/vi610777881?playlistId=tt0119738&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/best-friends-wedding.webp",
+		label: "(1997) Comedy, Drama, Romance"
+	},
+	{
+		title: "Someone Great",
+		url: "https://www.imdb.com/video/vi2772679193?playlistId=tt8075260&ref_=tt_pr_ov_vi",
+		image: "assets/images/movies-page/someone-great.webp",
+		label: "(2019) Comedy, Romance"
+	}]
 };
 
 
@@ -210,8 +305,19 @@ function randomCard(elParentId) {
 		console.log("random from food-shake");
 		allCardChoices = cardData.foodShake;
 	}
+	else if (elParentId == "movie-solo") {
+		console.log("random from movie solo");
+		allCardChoices = cardData.movieSolo;
+	}
+	else if (elParentId == "movie-couples") {
+		console.log("random from movie couples");
+		allCardChoices = cardData.movieCouples;
+	}
+	else if (elParentId == "movie-friends") {
+		console.log("random from movide friends");
+		allCardChoices = cardData.movieFriends;
+	}
 
-	
 	
 	else {
 		allCardChoices = cardData.empty;
@@ -260,6 +366,15 @@ function randomCard(elParentId) {
 	}
 	else if (elParentId == "food-shake") {
 		document.getElementById('food-shake-back').innerHTML = cardHtml;
+	}
+	else if (elParentId == "movie-solo") {
+		document.getElementById('movie-solo-back').innerHTML = cardHtml;
+	}
+	else if (elParentId == "movie-couples") {
+		document.getElementById('movie-couples-back').innerHTML = cardHtml;
+	}
+	else if (elParentId == "movie-friends") {
+		document.getElementById('movie-friends-back').innerHTML = cardHtml;
 	}
 };
 
