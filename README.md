@@ -125,7 +125,7 @@ We have been mindful during coding to ensure that the website is as accessible f
 
 ### Languages Used
 
-HTML, CSS, Javascript
+HTML, CSS, Javascript, Bootstrap5
 
 ### Frameworks, Libraries & Programs Used
 
@@ -230,6 +230,8 @@ We also went through each page using google chrome developer tools to ensure tha
 ### Media
 
 #### Index Page
+Images acquired under licence from Adobe Stock:
+[Clapperboard](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=hearts+clapperboard&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&aco=hearts+clapperboard&get_facets=0&asset_id=478864574) | [Heart Biscuits](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=hearts+biscuit&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=autosuggest&acp=0&aco=hearts+bis&get_facets=0&asset_id=238249922) | [Heart Dice](https://stock.adobe.com/uk/search/images?k=dice+hearts&search_type=usertyped&asset_id=131839808)
 
 #### Movies Page
 
