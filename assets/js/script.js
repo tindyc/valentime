@@ -128,7 +128,7 @@ const cardData = {
 	{
 		title: "Persian Love Cake",
 		url: "https://www.youtube.com/results?search_query=Persian+Love+Cake",
-		image: "assets/images/food_drink-page/cake_petal.jpeg",
+		image: "assets/images/food_drink-page/cake_petals.jpeg",
 		label: "A fragrant rose cake flavored with freshly ground cardamom and topped with crushed pistachios and rose "
 	},
 	{
