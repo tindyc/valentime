@@ -91,56 +91,92 @@ const cardData = {
 	{
 		title: "Spicy Pesto Pasta Alla Vodka",
 		url: "https://www.youtube.com/results?search_query=Spicy+Pesto+Pasta+Alla+Vodka",
-		image: "",
+		image: "assets/images/food_drink-page/pasta.jpeg",
 		label: "Enjoy the flavors and taste of... authentic Italian cuisine."
 	},
 	{
 		title: "Crispy Honey Glazed Chicken Thighs",
 		url: "https://www.youtube.com/results?search_query=Crispy+Honey+Glazed+Chicken+Thighs",
-		image: "",
+		image: "assets/images/food_drink-page/food_prep.jpeg",
 		label: "Tweak the flavor of Chicken to suit all taste buds."
+	},
+	{
+		title: "Instant Pot Indian Butter Chicken",
+		url: "https://www.youtube.com/results?search_query=Instant+Pot+Indian+Butter+Chicken",
+		image: "assets/images/food_drink-page/bchicken.jpeg",
+		label: "Traditionally known as Murgh makhani, is a type of curry made from chicken with a spiced tomato and butter sauce."
+	},
+	{
+		title: "Shrimp and Gnocchi With Garlic Parmesan Cream Sauce",
+		url: "https://www.youtube.com/results?search_query=Shrimp+and+Gnocchi+With+Garlic+Parmesan+Cream+Sauce",
+		image: "assets/images/food_drink-page/gnocchi.jpeg",
+		label: "Light, airy gnocchi tossed with tender shrimp and the most amazing cream sauce."
 	},
 	{
 		title: "Roasted Salmon Nicoise",
 		url: "https://www.youtube.com/results?search_query=roasted+salmon+nicoise",
-		image: "",
-		label: "As healthy as it could be"
+		image: "assets/images/food_drink-page/salmon_steak.jpeg",
+		label: "As healthy as it could be."
 	}],
 	foodBake: [
 	{
 		title: "Red velvet cupcakes",
 		url: "https://www.youtube.com/results?search_query=Red+velvet+cupcakes",
-		image: "",
+		image: "assets/images/food_drink-page/baking_ingredients.jpeg",
 		label: "Cake is incredibly soft, moist, buttery, and topped with an easy cream cheese frosting."
 	},
 	{
 		title: "Persian Love Cake",
 		url: "https://www.youtube.com/results?search_query=Persian+Love+Cake",
-		image: "",
+		image: "assets/images/food_drink-page/cake_petal.jpeg",
 		label: "A fragrant rose cake flavored with freshly ground cardamom and topped with crushed pistachios and rose "
+	},
+	{
+		title: "Vanilla Cupcakes with Rose Petal Buttercream",
+		url: "https://www.youtube.com/results?search_query=Vanilla+Cupcakes+with+Rose+Petal+Buttercream",
+		image: "assets/images/food_drink-page/piping-bag.jpeg",
+		label: "Light, airy and fluffy vanilla cupcakes with rose petal buttercream icing is the cutest treat."
+	},
+	{
+		title: "Molten chocolate lava cakes",
+		url: "https://www.youtube.com/results?search_query=Molten+chocolate+lava+cakes",
+		image: "assets/images/food_drink-page/lava_cake.jpeg",
+		label: "A popular dessert that combines the elements of a chocolate cake and a soufflé."
 	},
 	{
 		title: "Fudgy Brownies",
 		url: "https://www.youtube.com/results?search_query=Fudgy+Brownies+",
-		image: "",
+		image: "assets/images/food_drink-page/cocoa-powder-browine.jpeg",
 		label: "These brownies are rich, fudgy in the middle and have a higher fat-to-flour ratio than cakey ones."
 	}],
 	foodShake: [{
 		title: "Strawberry Margarita",
 		url: "https://www.youtube.com/results?search_query=Strawberry+Margarita",
-		image: "",
+		image: "assets/images/food_drink-page/cocktail-ingredients.jpeg",
 		label: "A near perfect strawberry margarita with frozen strawberries and limeade concentrate."
 	},
 	{
 		title: "Love Potion No. 9",
 		url: "https://www.youtube.com/results?search_query=love+potion+no.+9+cocktail",
-		image: "",
+		image: "assets/images/food_drink-page/pouring-drink.jpeg",
 		label: "A a sweet, spicy non-alcoholic drink."
+	},
+	{
+		title: "Cosmopolitan",
+		url: "https://www.youtube.com/results?search_query=cosmopolitan+cocktail+recipe",
+		image: "assets/images/food_drink-page/cosmo_glass.jpeg",
+		label: "A cocktail made with vodka, triple sec, cranberry juice, and freshly squeezed or sweetened lime juice."
+	},
+	{
+		title: "Strawberry Sangria",
+		url: "https://www.youtube.com/results?search_query=Strawberry+Sangria+recipe",
+		image: "assets/images/food_drink-page/strawberry_glass.jpeg",
+		label: "A refreshing cocktail that combines the sweetness and flavours of strawberries, oranges, lime and basil with white wine."
 	},
 	{
 		title: "Classic Mudslide",
 		url: "https://www.youtube.com/results?search_query=Classic+Mudslide",
-		image: "",
+		image: "assets/images/food_drink-page/chocolate_cocktail.jpeg",
 		label: "A delicious dessert cocktail "
 	}],
 	movieSolo: [{
