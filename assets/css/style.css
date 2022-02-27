@@ -277,13 +277,13 @@ footer {
 
 .card-img , .card-img-top{
   object-fit: cover;
-  max-height: 150px;
+  max-height: 30vh;
 } 
 
 /* -----------------------Contact */
 .contact-form{
-  margin-top: 1%;
-  margin-bottom: 1%;
+  /*--margin-top: 1%;
+  margin-bottom: 1%;--*/
   width: 70%;
 }
 .contact-form .form-control{
@@ -291,21 +291,22 @@ footer {
 }
 
 .contact-form form{
-  padding: 12%;
+  padding: 10%;
 }
+
 .contact-form form .row{
   margin-bottom: -7%;
 }
 
 .contact-form h2 {
-  color: #fff;
+  color: var(--white-color);
   margin-bottom: 10%;
   margin-top: -10%;
   text-align: center;
   
 }
 .contact-form h3{
-  color: #fff;
+  color: var(--white-color);
   margin-bottom: 5%;
   margin-top: -5%;
   text-align: center;
@@ -318,12 +319,12 @@ footer {
   padding: 2%;
   background: var(--accent-color);
   font-weight: 600;
-  color: #fff;
+  color: var(--white-color);
   cursor: pointer;
 }
 
 .contact {
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 .contact img {
@@ -458,4 +459,12 @@ footer {
   width: 50px;
   height: 50px;
   font-size: 18px;
+}
+.toggle-cursor {
+  position:relative;
+  left:5vw;
+}
+.toggle-cursor p {
+  display: inline;
+  font-family:var(--content-text);
 }
