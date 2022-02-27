@@ -1,5 +1,11 @@
 // Card Data Sets 
-const const cardData = {
+const cardData = {
+	empty: [{
+		title: "",
+		url: "",
+		image: "",
+		label: ""
+	}],
 	gameSolo: [{
 		title: "Club Penguin",
 		url: "https://cprewritten.net/",
@@ -55,23 +61,29 @@ const const cardData = {
 		label: "Suggestions for couples to interact in new and unique ways to strengthen your connections."
 	}],
  	gameOnline: [{
-		title: "",
-		url: "",
+		title: "Virtual Game Night",
+		url: "https://www.letsroam.com/roam_from_home/virtual_game_night",
 		image: "",
-		label: ""
+		label: "Get ready for some wholesome laughs and bonding with your partner with a virtual game night! "
 	},
 	{
-		title: "",
-		url: "",
+		title: "Psych",
+		url: "https://www.warnerbros.com/games-and-apps/psych-outwit-your-friends",
 		image: "",
-		label: ""
+		label: " Mime the clues as your partner guesses for some laugh out moments!"
 	},
 	{
-		title: "",
-		url: "",
+		title: "SnapChat Games",
+		url: "https://beebom.com/best-snapchat-games/",
 		image: "",
-		label: ""
-	}],
+		label: " Have a phone, have SnapChat, then try one of these fun SnapChat games!"
+	},
+	{
+		title: "Text Chat Games",
+		url: "https://parade.com/1043064/marynliles/texting-games/",
+		image: "",
+		label: "A curated list of 30 of the best games and suggestions to play with your partner by phone!"
+	}]
 };
 
 //Facebook SDK JS
@@ -115,7 +127,7 @@ function flipCard(e) {
 }
 
 // choose a random card matching the id to the relevant data set
-// create empty array
+// create empty dictionary
 let allCardChoices = {}
 
 function randomCard(elParentId) {
@@ -123,9 +135,22 @@ function randomCard(elParentId) {
 		console.log("random from game-single");
 		allCardChoices = cardData.gameSolo;
 	}
+	else if (elParentId == "game-couples") {
+		console.log("random from game-couples");
+		allCardChoices = cardData.gameCouples;
+	}
+	else if (elParentId == "game-online") {
+		console.log("random from game-online");
+		allCardChoices = cardData.gameOnline;
+	}
+
+	/// add if statements here for all cardIDs and map to correct data set ///
+	
+	else {
+		allCardChoices = cardData.empty;
+	}
 	console.log("show card choices", allCardChoices);
 	
-	// add if statements here for all cardIDs and map to correct data set
 
 	// make random seletion from allCards array
 	let randomSelection = allCardChoices[Math.random() * allCardChoices.length | 0];
@@ -140,6 +165,19 @@ function randomCard(elParentId) {
 	console.log("card img", cardImg);
 	let cardLabel = randomSelection.label;
 	console.log("card label", cardLabel);
+
+
+	let cardHtml = `
+		<a href="${randomSelection.url}">
+			<h3 class="p-3">${randomSelection.title}</h3>
+			<img src="${randomSelection.image}" class="card-img-top" alt="">
+			<div class="card-body">
+				<p class="card-text">${randomSelection.label}</p>
+			</div>
+		</a>
+    `;
+	
+	document.getElementById('game-solo-back').innerHTML = cardHtml;
 
 }
 
