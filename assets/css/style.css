@@ -37,6 +37,10 @@ body {
     flex-direction: column;
 }
 
+main {
+  padding-bottom: 30px;
+}
+
 h1 {
   font-family: var(--header-text);
   font-size: 5rem;
@@ -101,7 +105,6 @@ h1 {
 .index-container {
   margin:1vh 5vw;
 }
-
 
 
 /*-----------------------Item Card */
@@ -216,6 +219,7 @@ footer {
   align-content: center;
   align-items: center;
   column-gap: 20px;
+  padding-bottom: 30px;
 }
 
 .cards__single {
