@@ -260,3 +260,67 @@ footer {
     width: 20%;
   }
 }
+
+/* -----------------------Contact */
+.contact-form{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 70%;
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+
+.contact-form form{
+  padding: 12%;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+
+.contact-form h2 {
+  color: #fff;
+  margin-bottom: 10%;
+  margin-top: -10%;
+  text-align: center;
+  
+}
+.contact-form h3{
+  color: #fff;
+  margin-bottom: 5%;
+  margin-top: -5%;
+  text-align: center;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 2%;
+  padding: 2%;
+  background: var(--accent-color);
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact {
+  padding-bottom: 5%;
+}
+.contact img {
+  border-radius: 50%;
+  padding: 10%;
+}
+
+.fa-github {
+  padding: 20px;
+  font-size: 50px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: var(--base-color);
+}
+
+.fa-github:hover {
+  color: var(--accent-color);
+}
