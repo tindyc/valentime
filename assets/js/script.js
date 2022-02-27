@@ -29,7 +29,7 @@ let click = document.getElementById("on-off");
 
 click.addEventListener("click", function(){
 	if(click.textContent === "On"){
-        click.textContent = "Off"
+        click.textContent = "Off";
 		} else {
         click.textContent = "On";
     }
@@ -49,11 +49,11 @@ const speed = 0.5;
 const cursorXOffset = 0;
 const cursorYOffset = -5;
 
-const hearts = [];
+let hearts = [];
 		
 function generateHeart(x, y, xBound, xStart, scale)
 {
-	const heart = document.createElement("DIV");
+	let heart = document.createElement("DIV");
 	heart.setAttribute('class', 'heart');
 	brd.appendChild(heart);
 	heart.time = duration;
