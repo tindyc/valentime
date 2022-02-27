@@ -41,6 +41,12 @@ document.onmousedown = function(e) {
 		event = e;
 }};
 
+document.ontouchstart = function(e) {
+	if (click.textContent === "On"){
+	    down = true;
+	    event = e.touches[0];
+}};
+
 const brd = document.createElement("DIV");
 document.body.insertBefore(brd, document.getElementById("heart"));
 
@@ -80,11 +86,6 @@ document.onmouseup = function(e) {
 
 document.onmousemove = function(e) {
 	event = e;
-};
-
-document.ontouchstart = function(e) {
-	down = true;
-	event = e.touches[0];
 };
 
 document.ontouchend = function(e) {
