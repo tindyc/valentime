@@ -425,3 +425,16 @@ footer {
 .subscribe-container #hide{
   display: none;
 } 
+
+/*---On-Off Heart CSS---*/
+
+#on-off {
+  background-image: url('../images/heart2.png');
+  background-color: transparent;
+  border: none;
+  color: var(--base-color);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+}

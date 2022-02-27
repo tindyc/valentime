@@ -1,4 +1,4 @@
-let onn = "1";
+
 
 //Facebook SDK JS
 
@@ -25,13 +25,22 @@ cards.forEach((card) => card.addEventListener("click", flipCard));
 
 //Hearts on click code
 
-if (onn === "1"){
-    document.onmousedown = function(e) {
-        down = true;
-        event = e;
-        console.log(e);
-    };
-}
+let click = document.getElementById("on-off");
+
+click.addEventListener("click", function(){
+	if(click.textContent === "On"){
+        click.textContent = "Off"
+		} else {
+        click.textContent = "On";
+    }
+});
+
+document.onmousedown = function(e) {
+	if (click.textContent === "On"){
+		down = true;
+		event = e;
+}};
+
 const brd = document.createElement("DIV");
 document.body.insertBefore(brd, document.getElementById("heart"));
 
