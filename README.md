@@ -1,5 +1,7 @@
 # VALENTIME
 
+![Valentime Logo](assets/images/valentime-logo.png)
+
 Created for the Code Institute's February 2022 Hackathon, Love is in the air.
 
 Valentime: Spend more time creating memories!
@@ -20,7 +22,7 @@ Add site responsive screenshot here
 ![GitHub contributors](https://img.shields.io/github/contributors/tindyc/valentime?logoColor=orange&style=plastic)
 ![GitHub language count](https://img.shields.io/github/languages/count/tindyc/valentime?logoColor=yellow&style=plastic)
 ![GitHub top language](https://img.shields.io/github/languages/top/tindyc/valentime?logoColor=green&style=plastic)
-![W3C Validator]()
+![W3C Validation](https://img.shields.io/w3c-validation/html?style=plastic&targetUrl=https%3A%2F%2Ftindyc.github.io%2Fvalentime)
 ![GitHub forks](https://img.shields.io/github/forks/tindyc/valentime?style=social)
 
 ## CONTENTS
@@ -69,9 +71,18 @@ Add site responsive screenshot here
 
 #### First Time Visitor Goals
 
+* As a first time user, I want to be able to find out what the valentime site is about.
+* I want to be able to see what categories there are for date night ideas.
+
 #### Returning Visitor Goals
 
+* As a returning visitor of the site I want to be able to try different date night ideas depending on who will be participating. I may have tried a date night idea with a partner, and now I want to see what the site can suggest for a date night with a group of friends.
+* As a returning visitor to the site, I want to be able to share date night ideas with my loved ones.
+
 #### Frequent Visitor Goals
+
+* As a frequent user of the site I want to be able to contact Valentime and suggest new date night ideas.
+* As a frequent visitor to the site, I want to be able to subscribe to the Valentime Youtube channel.
 
 - - -
 
@@ -79,7 +90,9 @@ Add site responsive screenshot here
 
 ### Colour Scheme
 
-Image of colour scheme to go here
+As the theme of the site is all about love, we chose to use the classic romantic colours of reds and pinks. We have chosen some complementary colours that stand out from the pink to be used throughout the site.
+
+![Valentime Full Site Colour Palette](documentation/colour-palette.webp)
 
 ### Typography
 
@@ -95,20 +108,34 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop with ...
+Wireframes were created for mobile, tablet and desktop with [Balsamiq](https://balsamiq.com/)
 
 Wireframes links/images to go here
 
 ### Features
 
-The website is comprised of …
+The website is comprised of:
 
-* All Pages on the website have:
+1. Home page.
+2. Movies page.
+3. Food and drink page.
+4. Games night page.
+5. Contact us page.
 
-  * A favicon icon.
+All Pages on the website have:
+
+* A favicon icon.
     ![Favicon Icon](documentation/favicon.webp)
+* A responsive navbar.
+    ![Navbar](documentation/navbar.webp)
+* A responsive footer.
+    ![Footer](documentation/footer.webp)
 
 * Future Implementations.
+
+  * Add further theme categories for date nights in the future and expand on the number of ideas in each category.
+  * Implement a log in function so that people could save ideas they like.
+  * Add a rating system for people to rate the date ideas.
 
 ### Accessibility
 
@@ -141,7 +168,7 @@ Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-?[Tiny PNG](https://tinypng.com/) To compress images.
+[Tiny PNG](https://tinypng.com/) To compress images.
 
 [Birme](https://www.birme.net/) To resize images and convert to webp format.
 
@@ -230,6 +257,7 @@ We also went through each page using google chrome developer tools to ensure tha
 ### Media
 
 #### Index Page
+
 Images acquired under licence from Adobe Stock:
 [Clapperboard](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=hearts+clapperboard&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&aco=hearts+clapperboard&get_facets=0&asset_id=478864574) | [Heart Biscuits](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=hearts+biscuit&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=autosuggest&acp=0&aco=hearts+bis&get_facets=0&asset_id=238249922) | [Heart Dice](https://stock.adobe.com/uk/search/images?k=dice+hearts&search_type=usertyped&asset_id=131839808)
 
@@ -245,6 +273,7 @@ Images acquired under licence from Adobe Stock:
 * Solo
 
   [How to be single](https://www.imdb.com/title/tt1292566/mediaviewer/rm1563878144/) | [Romie & Micheles High School reunion](https://www.imdb.com/title/tt0120032/mediaviewer/rm3693776641/) | [La la land](https://www.imdb.com/title/tt3783958/mediaviewer/rm3967749632/) | [He's just not that into you](https://www.imdb.com/title/tt1001508/mediaviewer/rm2221312512/) | [Magic Mike](https://www.imdb.com/title/tt1915581/mediaviewer/rm2370876672/)
+
 * Couple
 
   [Romeo & Juliet](https://image.tmdb.org/t/p/original/zWLZEUE0jrTiLhWQVh8NOJRwIU9.jpg) | [The Vow](https://www.imdb.com/title/tt1606389/mediaviewer/rm2093465088/) | [Sleepless in Seattle](https://www.imdb.com/title/tt0108160/mediaviewer/rm2444975104/) | [The Notebook](https://www.imdb.com/title/tt0332280/mediaviewer/rm1153669376/) | [The wedding singer](https://www.imdb.com/title/tt0120888/mediaviewer/rm2194422016/)
@@ -260,12 +289,11 @@ Images acquired under licence from Adobe Stock:
 [Glasses With Cocktails](https://www.pexels.com/photo/glasses-with-alcoholic-beverages-5379762/) |
 [Macarons Around A Cake](https://www.pexels.com/photo/macarons-around-a-pink-cake-4887830/) |
 
-
-
 #### Games Night Page
 
 #### Contact Us Page
 
+The images of each team member belong to the individual.
 - - -
 ### Acknowledgments
 
