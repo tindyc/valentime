@@ -253,6 +253,13 @@ We also went through each page using google chrome developer tools to ensure tha
 
 #### Food & Drinks Page
 
+#### Category Images
+[Dinner Table](https://www.pexels.com/photo/candles-cutlery-flatware-fork-290524/) |
+[Glasses With Cocktails](https://www.pexels.com/photo/glasses-with-alcoholic-beverages-5379762/) |
+[Macarons Around A Cake](https://www.pexels.com/photo/macarons-around-a-pink-cake-4887830/) |
+
+
+
 #### Games Night Page
 
 #### Contact Us Page
