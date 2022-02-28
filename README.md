@@ -271,6 +271,8 @@ We also went through each page using google chrome developer tools to ensure tha
 
 ### Content
 
+All the siter content were written by Cupids Coders.
+
 ### Media
 
 #### Index Page
