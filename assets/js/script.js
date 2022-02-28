@@ -10,81 +10,81 @@ const cardData = {
 	{
 		title: "Club Penguin",
 		url: "https://cprewritten.net/",
-		image: "assets/images/controller.jpeg",
+		image: "assets/images/game-page/club_penguin.png",
 		label: "Free to play - make new friends and solve puzzles together in this frozen virtual world"
 	},
 	{
 		title: "MiniClip",
 		url: "https://www.miniclip.com/games/genre-2/multiplayer/en/",
-		image: "assets/images/controller.jpeg",
+		image: "assets/images/game-page/mini-clip.png",
 		label: "Large selection of multiplayer games available on desktop and mobile. Make new friends as you team up for a challenge."
 	},
 	{
 		title: "Best Games to Meet People Online",
 		url: "https://www.esquireme.com/gaming/44920-lonely-these-are-the-best-games-to-make-friends-online",
-		image: "assets/images/controller.jpeg",
+		image: "assets/images/game-page/solo-online.png",
 		label: "Some of the best games with communities to meet new people"
 	}],
  	gameCouples: [
 	{
 		title: "Guess the Song (Android)",
 		url: "https://play.google.com/store/apps/details?id=quess.song.music.pop.quiz",
-		image: "assets/images/tic_tac_toe.jpeg",
+		image: "assets/images/game-page/guess-song.png",
 		label: " Guess the Song is a fun mobile game where you can go head-to-head in a battle to see who can identify songs faster"
 	},
 	{
 		title: "Steamy Role Play",
 		url: "https://www.thedatingdivas.com/10-super-steamy-stories-for-roleplay-romance/",
-		image: "assets/images/tic_tac_toe.jpeg",
+		image: "assets/images/game-page/roleplay.png",
 		label: "Roleplay is an exciting way to add some spice, grab some props and bring your fantasy scenarios to life!"
 	},
 	{	
 		title: "Sexy Dice Game",
 		url: "https://www.thedatingdivas.com/sexy-dice-intimate-date-night/",
-		image: "assets/images/tic_tac_toe.jpeg",
+		image: "assets/images/game-page/sexy-dice.png",
 		label: "Give this free printable sexy dice game a roll and see just how fun an intimate date night can be."
 	},
 	{
 		title: "Sexy Tic Tac Toe",
 		url: "https://www.thedatingdivas.com/sexy-tic-tac-toe/",
-		image: "assets/images/tic_tac_toe.jpeg",
+		image: "assets/images/game-page/sexy-tictactoe.png",
 		label: "Spice things up with this spin on an old classic. With steamy action cards no matter who wins the game you'll both be winners tonight!"
 	},
 	{
 		title: "Romantic Games for Couples",
 		url: "https://www.marriage.com/advice/romance/fun-and-romantic-games-for-couples/",
-		image: "assets/images/tic_tac_toe.jpeg",
+		image: "assets/images/game-page/truth_dare.png",
 		label: "Rid the monotonous routine with some fun romantic games that are easy to play and a great way to spice things up."
 	},
 	{
 		title: "21 Fun Games to Play at home",
 		url: "https://www.stylecraze.com/articles/games-for-couples/",
-		image: "assets/images/tic_tac_toe.jpeg",
+		image: "assets/images/game-page/dice-game.png",
 		label: "Suggestions for couples to interact in new and unique ways to strengthen your connections."
 	}],
  	gameOnline: [
 	{
 		title: "Virtual Game Night",
 		url: "https://www.letsroam.com/roam_from_home/virtual_game_night",
-		image: "assets/images/loading.jpeg",
+		image: "assets/images/game-page/virtual-game.png",
 		label: "Get ready for some wholesome laughs and bonding with your partner with a virtual game night! "
 	},
 	{
 		title: "Psych",
 		url: "https://www.warnerbros.com/games-and-apps/psych-outwit-your-friends",
-		image: "assets/images/loading.jpeg",
+		image: "assets/images/game-page/psych.png",
 		label: " Mime the clues as your partner guesses for some laugh out moments!"
 	},
 	{
 		title: "SnapChat Games",
 		url: "https://beebom.com/best-snapchat-games/",
-		image: "assets/images/loading.jpeg",
+		image: "assets/images/game-page/snapchat.png",
 		label: "Have a phone, have SnapChat, then try one of these fun SnapChat games!"
 	},
 	{
 		title: "Text Chat Games",
 		url: "https://parade.com/1043064/marynliles/texting-games/",
-		image: "assets/images/loading.jpeg",
+		image: "assets/images/game-page/game-phone.png",
 		label: "A curated list of 30 of the best games and suggestions to play with your partner by phone!"
 	}],
 	foodCook: [
