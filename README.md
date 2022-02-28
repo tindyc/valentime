@@ -10,7 +10,7 @@ During lockdown, we had to rethink what a date night was. The local pub was clos
 
 It would have been great to have a site where a suitable at home date night idea could be randomly selected for you ... so we decided to make that idea a reality!
 
-By using the Valentime site to randomly generating a date night idea based on the category you select, you will have more time to spend on the important stuff - making memories with your loved one ❤️.
+By using the Valentime site to randomly generate a date night idea based on the category you select, you will have more time to spend on the important stuff - making memories with your loved one ❤️.
 
 And as love comes in all different forms, from self love, the love of a friend group to romantic love - we have created seperate sections for each of these - so leave the pain of choosing what to do in the past, and start using Valentime today!
 
@@ -295,7 +295,7 @@ Due to time constraint, we were unable to change the Heading elements to match t
 
 ### Full Testing
 
-To fully test my website we performed the following testing using a number of browsers (google chrome) and devices (Macbook Pro 14 inch, iPhone 13 pro).
+To fully test the website we performed the following testing using a number of browsers and devices.
 
 We also went through each page using google chrome developer tools to ensure that they were responsive on all different screen sizes.
 
@@ -309,7 +309,7 @@ All the links in the page will open in a new tab implementing 'target="_blank"' 
 
 ### Content
 
-All the siter content were written by Cupids Coders.
+All the sites content were written by Cupids Coders.
 
 ### Media
 
