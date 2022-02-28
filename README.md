@@ -151,6 +151,8 @@ We have been mindful during coding to ensure that the website is as accessible f
 * Providing information for screen readers where there are icons used and no text.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 
+[Contrast on the Navbar Links](documentation/contrast-navlink.png) | [Contrast on the buttons](documentation/contrast-btn.png) | [Contrast on card text](documentation/contrast-cardtext.png)
+
 - - -
 
 ## Technologies Used
