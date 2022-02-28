@@ -119,11 +119,17 @@ Wireframes were created for mobile, tablet and desktop with [Balsamiq](https://b
 The website is comprised of:
 
 1. Home page.
+![Home screenshot](documentation/home.png)
 2. Movies page.
+![Movies screenshot](documentation/movies.png)
 3. Food and drink page.
+![Food and drink screenshot](documentation/foodanddrink.png)
 4. Games night page.
+![Games Night screenshot](documentation/gamesnight.png)
 5. Contact us page.
+![contact screenshot](documentation/contact.png)
 6. 404 error page.
+![404 screenshot](documentation/404.png)
 
 All Pages on the website have:
 
