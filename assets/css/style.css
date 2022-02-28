@@ -328,6 +328,7 @@ footer {
 
 .contact-form .form-control{
   border-radius:1rem;
+  margin-bottom: 10px;
 }
 
 .contact-form form{
