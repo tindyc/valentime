@@ -249,9 +249,15 @@ The CSS on the site was tested using the [Jigsaw W3C CSS Validator](https://jigs
 
 * First Time Visitors
 
+First time users are able to find out the purpose of the Valentime site on the landing page. They can easily navigate to every section on the navbar to check out different categories for date night ideas.
+
 * Returning Visitors
 
+Returning users are able to select different/new date night suggestions depending on who will be participating.  They are also able to share the ideas with friends and loved ones.
+
 * Frequent Visitors
+
+Frequent users are able to contact Valtime and suggest new date night ideas. They ar also able to subscribe to the Valentime Youtube channel.
 
 ### Lighthouse
 
