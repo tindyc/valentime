@@ -263,6 +263,21 @@ Frequent users are able to contact Valtime and suggest new date night ideas. The
 
 We used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
+__Home Page__
+[Desktop](documentation/lighthouse/home-desktop.jpg) |[Mobile](documentation/lighthouse/home-mobile.jpg)
+
+__Movies Page__
+[Desktop](documentation/lighthouse/movies-desktop.jpg) |[Mobile](documentation/lighthouse/movies-mobile.jpg)
+
+__Food_Drink Page__
+[Desktop](documentation/lighthouse/food_drink-desktop.jpg) |[Mobile](documentation/lighthouse/home-mobile.jpg)
+
+__Games Night Page__
+[Desktop](documentation/lighthouse/games-desktop.jpg) |[Mobile](documentation/lighthouse/games-mobile.jpg)
+
+__Contact Us Page__
+[Desktop](documentation/lighthouse/contact-desktop.jpg) |[Mobile](documentation/lighthouse/contact-mobile.jpg)
+
 ### Full Testing
 
 To fully test my website we performed the following testing using a number of browsers (google chrome) and devices (Macbook Pro 14 inch, iPhone 13 pro).
