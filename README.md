@@ -291,6 +291,7 @@ __Games Night Page__
 
 __Contact Us Page__
 [Desktop](documentation/lighthouse/contact-desktop.jpg) |[Mobile](documentation/lighthouse/contact-mobile.jpg)
+Due to time constraint, we were unable to change the Heading elements to match the sequentially-descending order on Contact Us page.
 
 ### Full Testing
 
