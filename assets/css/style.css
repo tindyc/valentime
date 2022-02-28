@@ -505,6 +505,12 @@ footer {
 } 
 
 
+/*---------- 404 PAGE ----------*/
+
+img.broken-heart {
+  height: 300px;
+  width: 300px;
+}
 /*---------- ON-OFF HEART CSS ----------*/
 
 #on-off {
