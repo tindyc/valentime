@@ -110,9 +110,9 @@ Google Fonts was used to import the chosen fonts for use in the site.
 
 Wireframes were created for mobile, tablet and desktop with [Balsamiq](https://balsamiq.com/)
 
-![Desktop](documentation/wireframes/desktop.pdf)
-![Tablet](documentation/wireframes/tablet.pdf)
-![Mobile](documentation/wireframes/mobile.pdf)
+[Desktop](documentation/wireframes/desktop.pdf) |
+[Tablet](documentation/wireframes/tablet.pdf) |
+[Mobile](documentation/wireframes/mobile.pdf) |
 
 ### Features
 
@@ -294,9 +294,34 @@ Images acquired under licence from Adobe Stock:
 
 #### Food & Drink Category Images
 
-[Dinner Table](https://www.pexels.com/photo/candles-cutlery-flatware-fork-290524/) |
-[Glasses With Cocktails](https://www.pexels.com/photo/glasses-with-alcoholic-beverages-5379762/) |
-[Macarons Around A Cake](https://www.pexels.com/photo/macarons-around-a-pink-cake-4887830/) |
+[Cook It !](https://www.pexels.com/photo/candles-cutlery-flatware-fork-290524/) |
+[Bake It !](https://www.pexels.com/photo/macarons-around-a-pink-cake-4887830/) |
+[Shake It !](https://www.pexels.com/photo/glasses-with-alcoholic-beverages-5379762/) |
+
+* Cook It
+
+  [Instant Pot Indian Butter Chicken](https://www.pexels.com/photo/brown-pie-on-brown-wooden-tray-7625056/) |
+  [Spicy Pesto Pasta Alla Vodka](https://www.pexels.com/photo/person-putting-spaghetti-in-boiling-water-6248997/) |
+  [Crispy Honey Glazed Chicken Thighs](https://www.pexels.com/photo/fresh-ingredients-for-food-preparation-3851014/) |
+  [Roasted Salmon Nicoise](https://www.pexels.com/photo/crop-faceless-woman-garnishing-salmon-steak-with-herbs-4916151/) |
+  [Shrimp and Gnocchi With Garlic Parmesan Cream Sauce](https://www.pexels.com/photo/bowl-of-cooked-food-3590401/) |
+
+* Bake It
+
+  [Red velvet cupcakes](https://www.pexels.com/photo/ingredients-on-table-1184265/) |
+  [Molten chocolate lava cakes](https://www.pexels.com/photo/close-up-photo-of-a-molten-chocolate-cake-on-white-ceramic-plate-7550135/) | 
+  [Persian Love Cake](https://www.pexels.com/photo/delicious-cake-and-sweets-on-table-decorated-with-rose-petals-4226982/) |
+  [Vanilla Cupcakes with Rose Petal Buttercream](https://www.pexels.com/photo/person-holding-piping-bag-with-white-icing-3992365/) |
+  [Fudgy Brownies](https://www.pexels.com/photo/crop-woman-decorating-cake-with-chocolate-7525159/) |
+
+* Shake It
+
+  [Cosmopolitan](https://www.pexels.com/photo/close-up-shot-of-a-glass-of-cocktail-7845203/) |
+  [Love Potion No. 9](https://www.pexels.com/photo/crop-person-pouring-drink-into-glass-with-) |
+  [Classic Mudslide](https://www.pexels.com/photo/woman-pouring-chocolate-while-making-milky-cocktail-in-glass-6205744/) |
+  [Strawberry Margarita](https://www.pexels.com/photo/orange-juice-in-clear-drinking-glass-5433735/) |
+  [Strawberry Sangria](https://www.pexels.com/photo/sliced-strawberry-in-clear-glass-8105035/) |
+
 
 #### Games Night Page
 
