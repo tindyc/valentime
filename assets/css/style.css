@@ -85,7 +85,7 @@ h1 {
 }
 
 .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link:hover {
-  color: var(--base-color);
+  color: var(--white-color);
 }
 
 
