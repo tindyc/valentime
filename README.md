@@ -14,7 +14,7 @@ By using the Valentime site to randomly generating a date night idea based on th
 
 And as love comes in all different forms, from self love, the love of a friend group to romantic love - we have created seperate sections for each of these - so leave the pain of choosing what to do in the past, and start using Valentime today!
 
-Add site responsive screenshot here
+![Valentime Site on a variety of device sizes](documentation/responsive.webp)
 
 [Visit the Valentime site here](https://tindyc.github.io/valentime/)
 
