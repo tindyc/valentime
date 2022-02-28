@@ -544,6 +544,10 @@ footer {
   }
 }
 
+.contact img {
+  max-width: 70%;
+}
+
 /*Media Query for Medium Sized Devices */
 @media only screen and (max-width: 768px) {
   div.card-body {
