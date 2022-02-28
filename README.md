@@ -130,9 +130,9 @@ All Pages on the website have:
 * A favicon icon.
     ![Favicon Icon](documentation/favicon.webp)
 * A responsive navbar.
-    ![Navbar](documentation/navbar.webp)
+    ![Navbar](documentation/navbar.png)
 * A responsive footer.
-    ![Footer](documentation/footer.webp)
+    ![Footer](documentation/footer.png)
 * An interactive heart effect on click - this can be switched on or off in the footer.
   ![Heart interactive click effect](documentation/heart-click.gif)
 
@@ -150,6 +150,8 @@ We have been mindful during coding to ensure that the website is as accessible f
 * Using descriptive alt attributes on images on the site.
 * Providing information for screen readers where there are icons used and no text.
 * Ensuring that there is a sufficient colour contrast throughout the site.
+
+[Contrast on the Navbar Links](documentation/contrast-navlink.png) | [Contrast on the buttons](documentation/contrast-btn.png) | [Contrast on card text](documentation/contrast-cardtext.png)
 
 - - -
 
@@ -243,15 +245,33 @@ The CSS on the site was tested using the [Jigsaw W3C CSS Validator](https://jigs
 
 ### Solved Bugs
 
+* Images not showing on deployed site
+
+Images were not showing on the food and drinks page initially at deployment.File paths were fixed, images were then visble on deplyoed site.
+
 ### Known Bugs
+
+* Facebook share button
+
+We have attempted to implement a facebook share buttons for the users to share date night ideas with others but have failed to get it working correctly with time restrictions.
+
+* Inconsistent behaviour with animated cursor
+
+Users might be required to click mulitple times for the hearts to appear. In response to this inconsistency, we have added the capability to switch this feature off by using the toggle on the navbar.
 
 ### Testing User Stories
 
 * First Time Visitors
 
+First time users are able to find out the purpose of the Valentime site on the landing page. They can easily navigate to every section on the navbar to check out different categories for date night ideas.
+
 * Returning Visitors
 
+Returning users are able to select different/new date night suggestions depending on who will be participating.  They are also able to share the ideas with friends and loved ones.
+
 * Frequent Visitors
+
+Frequent users are able to contact Valtime and suggest new date night ideas. They ar also able to subscribe to the Valentime Youtube channel.
 
 ### Lighthouse
 
@@ -279,6 +299,8 @@ To fully test my website we performed the following testing using a number of br
 
 We also went through each page using google chrome developer tools to ensure that they were responsive on all different screen sizes.
 
+All the links in the page will open in a new tab implementing 'target="_blank"' and have been manually tested to confirm that they will direct to the correct destination.
+
 - - -
 
 ## Credits
@@ -286,6 +308,8 @@ We also went through each page using google chrome developer tools to ensure tha
 ### Code Used
 
 ### Content
+
+All the siter content were written by Cupids Coders.
 
 ### Media
 
