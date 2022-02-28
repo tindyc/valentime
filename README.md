@@ -247,7 +247,7 @@ The CSS on the site was tested using the [Jigsaw W3C CSS Validator](https://jigs
 
 * Images not showing on deployed site
 
-Images were not showing on the food and drinks page initially at deployment.File paths were fixed, images were then visble on deplyoed site.
+Images were not showing on the food and drinks page initially at deployment. File paths were fixed, images were then visble on deployed site.
 
 ### Known Bugs
 
