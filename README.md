@@ -247,7 +247,12 @@ The CSS on the site was tested using the [Jigsaw W3C CSS Validator](https://jigs
 
 ### JavaScript Validator
 
-** was used to validate the JavaScript used.
+![JSHint](documentation/JSHint.png)
+
+JSHint was used to validate the JavaScript. Some minor items were identified (e.g. semi-colons missing / not required). Three warnings identified which were investiagted and remain as;
+ * variables declared but not used - removal prevents the function from operating correctly
+ * the body of a for in should be wrapped in an if statement - unable to accomodate and operate correctly (no console errors / bad behaviou encountered)
+ * redefinition of variable - desired change to variable for script to run 
 
 ### Solved Bugs
 
@@ -390,6 +395,15 @@ Images acquired under licence from Adobe Stock:
   [Strawberry Sangria](https://www.pexels.com/photo/sliced-strawberry-in-clear-glass-8105035/) |
 
 #### Games Night Page
+
+Images acquired under licence from Adobe Stock:
+  [controller](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Avideo%5D=0&filters%5Bcontent_type%3Atemplate%5D=0&filters%5Bcontent_type%3A3d%5D=0&filters%5Bcontent_type%3Aaudio%5D=0&filters%5Binclude_stock_enterprise%5D=0&filters%5Bis_editorial%5D=0&filters%5Bfree_collection%5D=0&filters%5Bcontent_type%3Aimage%5D=1&k=pink+hearts+controller&order=relevance&price%5B%24%5D=1&safe_search=1&search_page=1&search_type=usertyped&acp=&aco=pink+hearts+controller&get_facets=0&asset_id=245852852) |
+  [Tic Tac Toe](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=hearts+tic+tac+toe&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&aco=hearts+tic+tac+toe&get_facets=0&asset_id=184270956) |
+  [Loading Screen](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=hearts+loading+progress&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&aco=hearts+loading+progress&get_facets=0&asset_id=314647514) |
+  [Lady Texting](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=game+phone&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&aco=game+phone&get_facets=0&asset_id=350132639) |
+  [Friends Online Gaming](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=game+online+friends+laptop&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&aco=game+online+friends+laptop&get_facets=0&asset_id=194896349)
+
+  All other images were screen shots typically from the linked article / site.
 
 #### Contact Us Page
 
