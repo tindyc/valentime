@@ -357,7 +357,7 @@ footer {
   border-radius: 1rem;
   margin-top: 2%;
   padding: 2%;
-  background: var(--accent-color);
+  background: var(--secondary-color);
   font-weight: 600;
   color: var(--white-color);
   cursor: pointer;
