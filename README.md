@@ -223,8 +223,6 @@ Testing was ongoing throughout the entire build. We utilised Chrome developer to
 
 The W3C validator [FreeFormatter](https://www.freeformatter.com/html-validator.html) was used to validate the HTML on all pages of the website.
 
-It was also used to validate CSS.
-
 Initially the movies page and food & drink page were showing 2 errors due to a H1 element not having a closing tag. This was added in and the pages then passed.
 
 The contact page initially showed an error shown below, once removed the page passed.
@@ -234,6 +232,10 @@ The contact page initially showed an error shown below, once removed the page pa
 All 6 pages have now passed W3C validation checks.
 
 ![W3C validator pass](documentation/w3c-pass.png)
+
+The CSS on the site was tested using the [Jigsaw W3C CSS Validator](https://jigsaw.w3.org/css-validator/) The CSS passed.
+
+![CSS validation](documentation/css-validator.png)
 
 ### JavaScript Validator
 
