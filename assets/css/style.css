@@ -274,7 +274,7 @@ footer {
 }
 
 .visit-btn {
-  background-color: var(--accent-color);
+  background-color: var(--secondary-color);
   color:var(--white-color);
   border-radius: 10px;
   font-size: 1.25rem;
@@ -283,7 +283,7 @@ footer {
 
 .visit-btn:hover {
   background-color: var(--white-color);
-  color:var(--accent-color);
+  color:var(--secondary-color);
   box-shadow: -2px -2px 3px var(--base-color), 1px 1px 1px var(--grad1-color), 1px 2px 1px var(--grad2-color), 1px 3px 1px var(--grad3-color), 1px 4px 1px var(--grad4-color);
 }
 
