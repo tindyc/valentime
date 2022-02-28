@@ -263,6 +263,8 @@ To fully test my website we performed the following testing using a number of br
 
 We also went through each page using google chrome developer tools to ensure that they were responsive on all different screen sizes.
 
+All the links in the page will open in a new tab implementing 'target="_blank"' and have been manually tested to confirm that they will direct to the correct destination.
+
 - - -
 
 ## Credits
