@@ -2,12 +2,14 @@
 
 :root {
 
-  /* Typography */
+  /*---------- TYPOGRAPHY ----------*/
+
   --header-text: 'Dancing Script', cursive;
   --content-text: 'Josefin Sans', sans-serif;
 
-  /* Colors */
-  /* Replace and add to below with actual project color theme */
+
+  /*---------- COLOURS ----------*/
+
   --base-color: #FFC0CB;
   --grad1-color: #FFABC2;
   --grad2-color: #FE95BE;
@@ -20,7 +22,8 @@
   --hearts-color: #ff094f;
 }
 
-/* Global styles */
+
+/*---------- GLOBAL STYLES ----------*/
 
 body {
     font-family: var(--content-text);
@@ -51,8 +54,8 @@ h1 {
   color:var(--hearts-color);
 }
 
-/* -----------------------Header */
 
+/*---------- HEADER ----------*/
 .navbar {
   overflow: hidden;
   position: fixed;
@@ -85,7 +88,8 @@ h1 {
   color: var(--base-color);
 }
 
-/*------------ Page Layout Utilities */
+
+/*---------- PAGE LAYOUT UTILITIES ----------*/
 
 .header-container {
   padding-top:100px;
@@ -97,7 +101,6 @@ h1 {
   }
 }
 
-
 .sub-content {
   height: 5vh;
 }
@@ -107,7 +110,7 @@ h1 {
 }
 
 
-/*-----------------------Item Card */
+/*---------- ITEM CARD - HOME PAGE ----------*/
 
 .index-card {
   background: #a64e43;
@@ -116,7 +119,7 @@ h1 {
 }
 
 .card-body {
-  height:15vh;
+  height:27vh;
 }
 
 .index-card> img {
@@ -129,31 +132,11 @@ h1 {
   color:  var(--white-color);
 }
 
-@media (min-width: 768px) {
-  .card-body {
-    height: 25vh;
-  }
-}
 
-@media (min-width: 992px) {
-  .card-body {
-    height:20vh;
-  }
-}
-
-@media (min-width: 1200px) {
-  .card-body {
-    height:25vh;
-  }
-}
-
-/* -----------------------Footer */
+/*---------- FOOTER ----------*/
 
 footer {
   margin-top: auto;  
-}
-
-footer {
   width:100%;
   color: var(--white-color);
   background: var(--secondary-color) !important;
@@ -173,7 +156,8 @@ footer {
   color: var(--base-color);
 }
 
-/*---Hearts on click---*/
+
+/*---------- HEARTS ON CLICK ----------*/
 
 @keyframes heartfade {
 	0% {
@@ -183,11 +167,13 @@ footer {
 	  opacity : 0;
   }
 }
+
 .heart {
 	z-index : 999;
 	animation : heartfade 6s linear;
 	position : absolute; 
 }
+
 .heart:before,
 .heart:after {
 	content : "";
@@ -207,9 +193,8 @@ footer {
 	transform : rotate(135deg);
 }
 
-/*---End Hearts on click---*/
 
-/*---Flip Cards---*/
+/*---------- FLIP CARDS - ON CATEGORY PAGES ----------*/
 
 .cards {
   display: flex;
@@ -332,12 +317,15 @@ footer {
   max-height: 40vh;
 } 
 
-/* -----------------------Contact */
+
+/*---------- CONTACT US PAGE ----------*/
+
 .contact-form{
   /*--margin-top: 1%;
   margin-bottom: 1%;--*/
   width: 70%;
 }
+
 .contact-form .form-control{
   border-radius:1rem;
 }
@@ -355,14 +343,15 @@ footer {
   margin-bottom: 10%;
   margin-top: -10%;
   text-align: center;
-  
 }
+
 .contact-form h3{
   color: var(--white-color);
   margin-bottom: 5%;
   margin-top: -5%;
   text-align: center;
 }
+
 .contact-form .btnContact {
   width: 50%;
   border: none;
@@ -398,7 +387,9 @@ footer {
   color: var(--accent-color);
 }
 
-/* -----------------------Subscribe button */
+
+/*---------- SUBSCRIBE BUTTON ----------*/
+
 .subscribe-container{
   position: absolute;
   right: 30px;
@@ -415,6 +406,7 @@ footer {
   position: relative;
   animation: show_box 0.8s ease forwards;
 }
+
 @keyframes show_box {
   0%{
     transform: translateX(100%);
@@ -429,9 +421,11 @@ footer {
     transform: translateX(-10px);
   }
 }
+
 #hide:checked ~ .box{
   animation: hide_box 0.8s ease forwards;
 }
+
 @keyframes hide_box {
   0%{
     transform: translateX(0%);
@@ -446,6 +440,7 @@ footer {
     transform: translateX(calc(100% + 35px ));
   }
 }
+
 .subscribe-container .box i{
   position: absolute;
   right: 15px;
@@ -454,33 +449,40 @@ footer {
   cursor: pointer;
   transition: all 0.3s ease;
 }
+
 .subscribe-container i:hover{
   color: #000;
 }
+
 .subscribe-container .logo{
   height: 90px;
   width: 90px;
   margin-right: 15px;
 }
+
 .subscribe-container .logo img{
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
 .box .right{
   display: flex;
   flex-direction: column;
 }
+
 .box .right .text-1{
   font-size: 18px;
   font-weight: 600;
   color: #333;
 }
+
 .box .right .text-2{
   font-size: 14px;
   color: #666;
   margin: 2px 0 8px 0;
 }
+
 .box .right a{
   font-size: 18px;
   font-weight: 500;
@@ -493,14 +495,17 @@ footer {
   text-decoration: none;
   transition: all 0.4s ease;
 }
+
 .box .right a:hover{
   background-color: var(--accent-color);
 }
+
 .subscribe-container #hide{
   display: none;
 } 
 
-/*---On-Off Heart CSS---*/
+
+/*---------- ON-OFF HEART CSS ----------*/
 
 #on-off {
   background-image: url('../images/heart2.png');
@@ -528,3 +533,31 @@ footer {
     display: none;
   }
 }
+
+
+/*---------- MEDIA QUERIES ----------*/ 
+
+/*Media Query for Small Sized Devices */
+@media only screen and (max-width: 600px) {
+  div.card-body {
+    height: 20vh;
+  }
+}
+
+/*Media Query for Medium Sized Devices */
+@media only screen and (max-width: 768px) {
+  div.card-body {
+    height: 65vh;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+}
+
+/*Media Query for Large Sized Devices */
+@media only screen and (max-width: 992px) {
+  div.card-body {
+   height: 48vh;
+  }
+}
+
