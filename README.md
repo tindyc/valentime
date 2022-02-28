@@ -243,7 +243,19 @@ The CSS on the site was tested using the [Jigsaw W3C CSS Validator](https://jigs
 
 ### Solved Bugs
 
+* Images not showing on deployed site
+
+Images were not showing on the food and drinks page initially at deployment.File paths were fixed, images were then visble on deplyoed site.
+
 ### Known Bugs
+
+* Facebook share button
+
+We have attempted to implement a facebook share buttons for the users to share date night ideas with others but have failed to get it working correctly with time restrictions.
+
+* Inconsistent behaviour with animated cursor
+
+Users might be required to click mulitple times for the hearts to appear. In response to this inconsistency, we have added the capability to switch this feature off by using the toggle on the navbar.
 
 ### Testing User Stories
 
