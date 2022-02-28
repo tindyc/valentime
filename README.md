@@ -130,9 +130,9 @@ All Pages on the website have:
 * A favicon icon.
     ![Favicon Icon](documentation/favicon.webp)
 * A responsive navbar.
-    ![Navbar](documentation/navbar.webp)
+    ![Navbar](documentation/navbar.png)
 * A responsive footer.
-    ![Footer](documentation/footer.webp)
+    ![Footer](documentation/footer.png)
 * An interactive heart effect on click - this can be switched on or off in the footer.
   ![Heart interactive click effect](documentation/heart-click.gif)
 
