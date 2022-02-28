@@ -566,6 +566,18 @@ img.broken-heart {
     height: 65vh;
   }
   .card-text {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .card-text {
+    font-size: 1.15rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-text {
     font-size: 1rem;
   }
 }
