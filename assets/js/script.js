@@ -1,3 +1,4 @@
+/* jshint esversion: 8, jquery: true */
 // Card Data Sets 
 const cardData = {
 	empty: [{
@@ -308,7 +309,7 @@ function flipCard(e) {
 
 // choose a random card matching the id to the relevant data set
 // create empty dictionary
-let allCardChoices = {}
+let allCardChoices = {};
 
 function randomCard(elParentId) {
 	if (elParentId == "game-solo") {
@@ -385,7 +386,7 @@ function randomCard(elParentId) {
 	else if (elParentId == "movie-friends") {
 		document.getElementById('movie-friends-back').innerHTML = cardHtml;
 	}
-};
+}
 
 
 
