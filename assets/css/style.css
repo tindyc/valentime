@@ -544,11 +544,17 @@ footer {
   div.card-body {
     height: 20vh;
   }
+
+  .contact img {
+    max-width: 70%;
+  }
+
+  .subscribe-container {
+    padding-top: 15%;
+    left: 30px;
+  }
 }
 
-.contact img {
-  max-width: 70%;
-}
 
 /*Media Query for Medium Sized Devices */
 @media only screen and (max-width: 768px) {
@@ -565,5 +571,11 @@ footer {
   div.card-body {
    height: 48vh;
   }
+
+  .subscribe-container {
+    padding-top: 15%;
+    width: 400px;
+  }
+
 }
 
