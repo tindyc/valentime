@@ -221,9 +221,21 @@ Testing was ongoing throughout the entire build. We utilised Chrome developer to
 
 ### W3C Validator
 
-The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS.
+The W3C validator [FreeFormatter](https://www.freeformatter.com/html-validator.html) was used to validate the HTML on all pages of the website.
 
-W3C validator images or links to go here
+Initially the movies page and food & drink page were showing 2 errors due to a H1 element not having a closing tag. This was added in and the pages then passed.
+
+The contact page initially showed an error shown below, once removed the page passed.
+
+![contact page w3c error](documentation/contact-w3c.png)
+
+All 6 pages have now passed W3C validation checks.
+
+![W3C validator pass](documentation/w3c-pass.png)
+
+The CSS on the site was tested using the [Jigsaw W3C CSS Validator](https://jigsaw.w3.org/css-validator/) The CSS passed.
+
+![CSS validation](documentation/css-validator.png)
 
 ### JavaScript Validator
 
@@ -262,6 +274,7 @@ We also went through each page using google chrome developer tools to ensure tha
 ### Media
 
 #### Index Page
+
 Images acquired under licence from Adobe Stock:
 [Clapperboard](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=hearts+clapperboard&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=usertyped&acp=&aco=hearts+clapperboard&get_facets=0&asset_id=478864574) | [Heart Biscuits](https://stock.adobe.com/uk/search/images?filters%5Bcontent_type%3Aphoto%5D=1&filters%5Bcontent_type%3Aillustration%5D=1&filters%5Bcontent_type%3Azip_vector%5D=1&filters%5Bcontent_type%3Aimage%5D=1&k=hearts+biscuit&order=relevance&price%5B%24%5D=1&safe_search=1&limit=100&search_page=1&search_type=autosuggest&acp=0&aco=hearts+bis&get_facets=0&asset_id=238249922) | [Heart Dice](https://stock.adobe.com/uk/search/images?k=dice+hearts&search_type=usertyped&asset_id=131839808)
 
@@ -309,7 +322,7 @@ Images acquired under licence from Adobe Stock:
 * Bake It
 
   [Red velvet cupcakes](https://www.pexels.com/photo/ingredients-on-table-1184265/) |
-  [Molten chocolate lava cakes](https://www.pexels.com/photo/close-up-photo-of-a-molten-chocolate-cake-on-white-ceramic-plate-7550135/) | 
+  [Molten chocolate lava cakes](https://www.pexels.com/photo/close-up-photo-of-a-molten-chocolate-cake-on-white-ceramic-plate-7550135/) |
   [Persian Love Cake](https://www.pexels.com/photo/delicious-cake-and-sweets-on-table-decorated-with-rose-petals-4226982/) |
   [Vanilla Cupcakes with Rose Petal Buttercream](https://www.pexels.com/photo/person-holding-piping-bag-with-white-icing-3992365/) |
   [Fudgy Brownies](https://www.pexels.com/photo/crop-woman-decorating-cake-with-chocolate-7525159/) |
@@ -321,7 +334,6 @@ Images acquired under licence from Adobe Stock:
   [Classic Mudslide](https://www.pexels.com/photo/woman-pouring-chocolate-while-making-milky-cocktail-in-glass-6205744/) |
   [Strawberry Margarita](https://www.pexels.com/photo/orange-juice-in-clear-drinking-glass-5433735/) |
   [Strawberry Sangria](https://www.pexels.com/photo/sliced-strawberry-in-clear-glass-8105035/) |
-
 
 #### Games Night Page
 
