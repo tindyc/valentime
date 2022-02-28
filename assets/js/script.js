@@ -294,20 +294,14 @@ function flipCard(e) {
   
   // get parent ID (if user clicks on H3 or image)
   var target = e.target;
-  console.log("target", target);
-
   var elParentId = target.parentNode.id;
-  console.log("elParentID1", elParentId);
 
   // get grand-parent id (if user clicks on text)
   var nodeName = e.target.nodeName;
-  console.log("nodename", nodeName);
-
   if (nodeName == "P") {
 	  elParentId = target.parentNode.parentNode.id;
   	}
   
-  console.log("elParentID2", elParentId);
   //pass ID to randomCard function
   randomCard(elParentId);
 }
@@ -318,64 +312,42 @@ let allCardChoices = {}
 
 function randomCard(elParentId) {
 	if (elParentId == "game-solo") {
-		console.log("random from game-single");
 		allCardChoices = cardData.gameSolo;
 	}
 	else if (elParentId == "game-couples") {
-		console.log("random from game-couples");
 		allCardChoices = cardData.gameCouples;
 	}
 	else if (elParentId == "game-online") {
-		console.log("random from game-online");
 		allCardChoices = cardData.gameOnline;
 	}
 	else if (elParentId == "food-cook") {
-		console.log("random from food cook");
 		allCardChoices = cardData.foodCook;
 	}
 	else if (elParentId == "food-bake") {
-		console.log("random from food bake");
 		allCardChoices = cardData.foodBake;
 	}
 	else if (elParentId == "food-shake") {
-		console.log("random from food-shake");
 		allCardChoices = cardData.foodShake;
 	}
 	else if (elParentId == "movie-solo") {
-		console.log("random from movie solo");
 		allCardChoices = cardData.movieSolo;
 	}
 	else if (elParentId == "movie-couples") {
-		console.log("random from movie couples");
 		allCardChoices = cardData.movieCouples;
 	}
 	else if (elParentId == "movie-friends") {
-		console.log("random from movide friends");
 		allCardChoices = cardData.movieFriends;
 	}
 
-	
 	else {
 		allCardChoices = cardData.empty;
 	}
-	console.log("show card choices", allCardChoices);
 	
-
+	
 	// make random seletion from allCards array
 	let randomSelection = allCardChoices[Math.random() * allCardChoices.length | 0];
-	console.log("random selection", randomSelection);
-	
+		
 	// populate back of card with random selection
-	let cardTitle = randomSelection.title;
-	console.log("card title", cardTitle);
-	let cardURL = randomSelection.url;
-	console.log("card url", cardURL);
-	let cardImg = randomSelection.image;
-	console.log("card img", cardImg);
-	let cardLabel = randomSelection.label;
-	console.log("card label", cardLabel);
-
-
 	let cardHtml = `
 		<h3 class="p-3">${randomSelection.title}</h3>
 		<img src="${randomSelection.image}" class="card-img-top">
