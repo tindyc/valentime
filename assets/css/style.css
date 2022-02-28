@@ -394,7 +394,8 @@ footer {
 .subscribe-container{
   position: absolute;
   right: 30px;
-  bottom: 30px;
+  top: 50px;
+  padding-top: 5%;
 }
 
 .subscribe-container .box{
